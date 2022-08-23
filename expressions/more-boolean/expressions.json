@@ -28,5 +28,10 @@
     "name": "Lighting a fire?",
     "answer": "fireLit &&! haveMatches || !fireLit &&! haveMatches",
     "correct": false
+  },
+  {
+    "name": "Lighting a fire?",
+    "answer": "fireLit &&! haveMatches || !fireLit &&! haveMatches || fireLit && haveMatches",
+    "correct": true
   }
 ]
