@@ -43,5 +43,10 @@
     "name": "In the room where it happens?",
     "answer": "!inTheClass && isProctor || inTheClass &&! isProctor",
     "correct": false
+  },
+  {
+    "name": "In the room where it happens?",
+    "answer": "!inTheClass && isProctor || inTheClass &&! isProctor || inTheClass && isProctor",
+    "correct": true
   }
 ]
