@@ -160,5 +160,11 @@
     "answer": "names[0]",
     "correct": false,
     "timestamp": 1661378486448
+  },
+  {
+    "name": "First character",
+    "answer": "words [1024]",
+    "correct": false,
+    "timestamp": 1661378510993
   }
 ]
