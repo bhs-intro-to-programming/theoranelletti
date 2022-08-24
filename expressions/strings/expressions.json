@@ -214,5 +214,11 @@
     "answer": "\"fb\"",
     "correct": false,
     "timestamp": 1661378560917
+  },
+  {
+    "name": "First character",
+    "answer": "\"f\" && \"a\"",
+    "correct": false,
+    "timestamp": 1661378597006
   }
 ]
