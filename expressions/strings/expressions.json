@@ -196,5 +196,11 @@
     "answer": "\"e\"",
     "correct": false,
     "timestamp": 1661378537540
+  },
+  {
+    "name": "First character",
+    "answer": "\"f\"",
+    "correct": false,
+    "timestamp": 1661378539700
   }
 ]
