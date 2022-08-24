@@ -220,5 +220,11 @@
     "answer": "\"f\" && \"a\"",
     "correct": false,
     "timestamp": 1661378597006
+  },
+  {
+    "name": "First character",
+    "answer": "\"f\" && \"b\"",
+    "correct": false,
+    "timestamp": 1661378601350
   }
 ]
