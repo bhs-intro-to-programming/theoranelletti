@@ -766,5 +766,11 @@
     "answer": "s.substring (1,s.length -1)",
     "correct": true,
     "timestamp": 1661380228656
+  },
+  {
+    "name": "Last three",
+    "answer": "s.substring (1,s.length-1)",
+    "correct": false,
+    "timestamp": 1661380257368
   }
 ]
