@@ -118,5 +118,11 @@
     "answer": "'bar'",
     "correct": false,
     "timestamp": 1661378161732
+  },
+  {
+    "name": "First character",
+    "answer": "s",
+    "correct": false,
+    "timestamp": 1661378343624
   }
 ]
