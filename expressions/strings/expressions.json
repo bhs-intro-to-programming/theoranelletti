@@ -184,5 +184,11 @@
     "answer": "\"c\"",
     "correct": false,
     "timestamp": 1661378531004
+  },
+  {
+    "name": "First character",
+    "answer": "\"d\"",
+    "correct": false,
+    "timestamp": 1661378534100
   }
 ]
