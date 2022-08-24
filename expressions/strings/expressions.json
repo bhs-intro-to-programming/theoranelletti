@@ -604,5 +604,11 @@
     "answer": "s.substring (0,3)",
     "correct": true,
     "timestamp": 1661379558629
+  },
+  {
+    "name": "All but first and last",
+    "answer": "s.substring (0,10)",
+    "correct": false,
+    "timestamp": 1661379598846
   }
 ]
