@@ -130,5 +130,11 @@
     "answer": "'abcdefghijklmnopqrstuvwxyz'",
     "correct": false,
     "timestamp": 1661378371481
+  },
+  {
+    "name": "First character",
+    "answer": "'a'",
+    "correct": false,
+    "timestamp": 1661378390017
   }
 ]
