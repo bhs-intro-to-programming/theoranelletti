@@ -262,5 +262,11 @@
     "answer": "\"s1\" + \"s2\"",
     "correct": false,
     "timestamp": 1661378725529
+  },
+  {
+    "name": "Concatenate (smoosh) strings",
+    "answer": "s1 + s2",
+    "correct": true,
+    "timestamp": 1661378740154
   }
 ]
