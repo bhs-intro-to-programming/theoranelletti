@@ -166,5 +166,11 @@
     "answer": "words [1024]",
     "correct": false,
     "timestamp": 1661378510993
+  },
+  {
+    "name": "First character",
+    "answer": "\"ab\"",
+    "correct": false,
+    "timestamp": 1661378522636
   }
 ]
