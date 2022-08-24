@@ -238,5 +238,11 @@
     "answer": "s[0]",
     "correct": true,
     "timestamp": 1661378648791
+  },
+  {
+    "name": "Concatenate (smoosh) strings",
+    "answer": "s1[0]",
+    "correct": false,
+    "timestamp": 1661378674072
   }
 ]
