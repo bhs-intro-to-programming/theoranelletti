@@ -9,8 +9,8 @@ const drawFrame = (time) => {
   drawFilledCircle((time / 2) % width, height / 7, 25, 'grey');
   drawFilledCircle((time / 120) % width, height / 2, 25, 'orange');
   drawFilledCircle((time / 7200) % width, height / 1.2, 25, 'blue');
-  drawFallingTriangle(width / 2, time);
-  drawFallingTriangle(width / 2, time);
+drawFilledCircle((time / 8) % width, (time/ 10) % height, 25, 'black');
+  drawFilledCircle((time / 7) % width, (time/ 21) % height, 25, 'black');
 };
 
 // This is a function that we define to make it easier to draw a triangle. You
@@ -20,8 +20,6 @@ const drawTriangle = (x1, y1, x2, y2, x3, y3, color, width = 1) => {
   drawLine(x1, y1, x2, y2, color, width);
   drawLine(x2, y2, x3, y3, color, width);
   drawLine(x3, y3, x1, y1, color, width);
-  drawFilledCircle((time / 8) % width, (time/ 10) % height, 25, 'black');
-  drawFilledCircle((time / 7) % width, (time/ 21) % height, 25, 'black');
 };
 
 // This draws a falling trangle of a particular shape whose bottom point is
