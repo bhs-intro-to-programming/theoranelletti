@@ -25,14 +25,14 @@ const drawTriangle = (x1, y1, x2, y2, x3, y3, color, width = 9) => {
 // positioned at x and whose y is a function of time.
 const drawFallingTriangle = (x, time) => {
   // Figure out the x values relative to the passed in x
-  let x1 = x - 99;
-  let x2 = x + 99;
-  let x3 = x + 99;
+  let x1 = x - 0;
+  let x2 = x + 0;
+  let x3 = x + 0;
 
   // Figure out the y values as a function of time.
-  let y1 = (time / 4) % height;
-  let y2 = y1 + 15;
-  let y3 = y1 - 15;
+  let y1 = (time / .00001) % height;
+  let y2 = y1 + 1;
+  let y3 = y1 - 1;
 
   // Actually draw the triangle.
   drawTriangle(x1, y1, x2, y2, x3, y3, 'orange', 3);
