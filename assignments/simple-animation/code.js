@@ -7,8 +7,8 @@
 const drawFrame = (time) => {
   clear();
   drawFilledCircle((time / 2) % width, height / 7, 25, 'grey');
-  drawFilledCircle((time / 120) % width, height / 7, 25, 'orange');
-  drawFilledCircle((time / 7200) % width, height / 7, 25, 'blue');
+  drawFilledCircle((time / 120) % width, height / 0, 25, 'orange');
+  drawFilledCircle((time / 7200) % width, height / -7, 25, 'blue');
   drawFallingTriangle(width / 2, time);
 };
 
@@ -23,7 +23,7 @@ const drawTriangle = (x1, y1, x2, y2, x3, y3, color, width = 9) => {
 
 // This draws a falling trangle of a particular shape whose bottom point is
 // positioned at x and whose y is a function of time.
-const drawFallingTriangle = (x, time) => {
+const drawFallingTriangle =
   // Figure out the x values relative to the passed in x
   let x1 = x - 0;
   let x2 = x + 0;
