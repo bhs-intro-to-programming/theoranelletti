@@ -813,5 +813,12 @@
     "answer": "\ts[0,2].toUpperCase() + s.substring(3)",
     "correct": false,
     "timestamp": 1661811555582
+  },
+  {
+    "name": "Capitalize first three",
+    "canonical": "s.substring(0,3).toUpperCase() + s.substring(3)",
+    "answer": "\ts[0,2].toUpperCase() + s.toLowerCase().substring(3)",
+    "correct": false,
+    "timestamp": 1661811955202
   }
 ]
