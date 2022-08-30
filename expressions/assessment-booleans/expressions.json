@@ -96,5 +96,12 @@
     "answer": "!isSenior && invitedBySenior || isSenior &&! invitedBySenior || isSenior && invitedBySenior",
     "correct": true,
     "timestamp": 1661896299730
+  },
+  {
+    "name": "Dragging?",
+    "canonical": "!enoughSleep && lotsOfWork",
+    "answer": "!enoughSleep && lotsOfWork",
+    "correct": true,
+    "timestamp": 1661896313010
   }
 ]
