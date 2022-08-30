@@ -131,5 +131,12 @@
     "answer": "!fireLit &&! haveMatches || fireLit &&! haveMatches || !fireLit &&! haveMatches",
     "correct": false,
     "timestamp": 1661896458767
+  },
+  {
+    "name": "Lighting a fire?",
+    "canonical": "fireLit || !haveMatches",
+    "answer": "!fireLit &&! haveMatches || fireLit &&! haveMatches || !fireLit && haveMatches",
+    "correct": false,
+    "timestamp": 1661896463222
   }
 ]
