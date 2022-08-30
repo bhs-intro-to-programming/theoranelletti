@@ -40,5 +40,12 @@
     "answer": "6432-4000",
     "correct": true,
     "timestamp": 1661896795160
+  },
+  {
+    "name": "Sum",
+    "canonical": "a + b",
+    "answer": "a + b",
+    "correct": true,
+    "timestamp": 1661896803378
   }
 ]
