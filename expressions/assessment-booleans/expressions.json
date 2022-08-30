@@ -124,5 +124,12 @@
     "answer": "enoughSleep && keepingUp",
     "correct": true,
     "timestamp": 1661896408597
+  },
+  {
+    "name": "Lighting a fire?",
+    "canonical": "fireLit || !haveMatches",
+    "answer": "!fireLit &&! haveMatches || fireLit &&! haveMatches || !fireLit &&! haveMatches",
+    "correct": false,
+    "timestamp": 1661896458767
   }
 ]
