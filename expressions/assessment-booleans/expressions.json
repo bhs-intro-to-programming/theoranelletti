@@ -5,5 +5,12 @@
     "answer": "fast && strong",
     "correct": true,
     "timestamp": 1661895834966
+  },
+  {
+    "name": "In the room where it happens?",
+    "canonical": "inTheClass || isProctor",
+    "answer": "! inTheClass && isProctor || inTheClass &&! isProctor || inTheClass && isProctor",
+    "correct": true,
+    "timestamp": 1661895897014
   }
 ]
