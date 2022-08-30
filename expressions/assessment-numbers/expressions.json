@@ -12,5 +12,12 @@
     "answer": "x1 + x2 && y1 + y2",
     "correct": false,
     "timestamp": 1661895798062
+  },
+  {
+    "name": "Ratio",
+    "canonical": "a / b",
+    "answer": "a/b",
+    "correct": true,
+    "timestamp": 1661896733072
   }
 ]
