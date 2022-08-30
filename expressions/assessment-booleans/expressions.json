@@ -110,5 +110,12 @@
     "answer": "!fun && tired || !fun &&! tired || fun && tired",
     "correct": true,
     "timestamp": 1661896344907
+  },
+  {
+    "name": "Time to sleep?",
+    "canonical": "!sleepy || !dark",
+    "answer": "!sleepy &&! dark || !sleepy && dark || sleepy &&! dark",
+    "correct": true,
+    "timestamp": 1661896392341
   }
 ]
