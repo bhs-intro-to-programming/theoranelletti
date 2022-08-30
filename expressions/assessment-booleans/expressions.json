@@ -82,5 +82,12 @@
     "answer": "!afraidOfTheDark &&! afraidOfSpiders",
     "correct": true,
     "timestamp": 1661896254593
+  },
+  {
+    "name": "Can go to prom?",
+    "canonical": "isSenior || invitedBySenior",
+    "answer": "!isSenior && invitedBySenior || isSenior &&! invitedBySenior",
+    "correct": false,
+    "timestamp": 1661896288138
   }
 ]
