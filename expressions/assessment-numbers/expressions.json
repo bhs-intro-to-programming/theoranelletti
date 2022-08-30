@@ -110,5 +110,12 @@
     "answer": "Math.abs(x1 - x2) + Math.abs(y1 - y2)",
     "correct": true,
     "timestamp": 1661898672427
+  },
+  {
+    "name": "Distance",
+    "canonical": "Math.abs(a - b)",
+    "answer": "Math.abs(a + b)",
+    "correct": false,
+    "timestamp": 1661898692700
   }
 ]
