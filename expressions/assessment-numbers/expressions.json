@@ -96,5 +96,12 @@
     "answer": "4 * Math.PI",
     "correct": true,
     "timestamp": 1661897074168
+  },
+  {
+    "name": "Distance",
+    "canonical": "Math.abs(a - b)",
+    "answer": "(a + b)",
+    "correct": false,
+    "timestamp": 1661897936419
   }
 ]
