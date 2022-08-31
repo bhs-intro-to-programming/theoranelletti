@@ -855,5 +855,12 @@
     "answer": "s.substring(0,2).toUpperCase() + s.substring(3,s.length)",
     "correct": false,
     "timestamp": 1661984289550
+  },
+  {
+    "name": "Capitalize first three",
+    "canonical": "s.substring(0,3).toUpperCase() + s.substring(3).toLowerCase()",
+    "answer": "s.substring(0,3).toUpperCase() + s.toLowerCase().substring()",
+    "correct": false,
+    "timestamp": 1661984372360
   }
 ]
