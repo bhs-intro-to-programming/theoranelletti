@@ -33,5 +33,12 @@
     "answer": "enoughSleep &&! justWorkedOut",
     "correct": true,
     "timestamp": 1662069678947
+  },
+  {
+    "name": "Will we skip our trip to the store?",
+    "canonical": "!storeOpen || linesTooLong",
+    "answer": "! storeOpen &&! linesTooLong || ! storeOpen && linesTooLong || storeOpen && linesTooLong",
+    "correct": true,
+    "timestamp": 1662069707156
   }
 ]
