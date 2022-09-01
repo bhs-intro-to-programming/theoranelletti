@@ -26,5 +26,12 @@
     "answer": "isSenior && invitedBySenior || ! isSenior && invitedBySenior || isSenior && !invitedBySenior",
     "correct": true,
     "timestamp": 1662069663874
+  },
+  {
+    "name": "Energetic?",
+    "canonical": "enoughSleep && !justWorkedOut",
+    "answer": "enoughSleep &&! justWorkedOut",
+    "correct": true,
+    "timestamp": 1662069678947
   }
 ]
