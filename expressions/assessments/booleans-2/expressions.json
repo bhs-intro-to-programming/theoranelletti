@@ -5,5 +5,12 @@
     "answer": "member &&! outSick",
     "correct": true,
     "timestamp": 1662069570072
+  },
+  {
+    "name": "Lighting a fire?",
+    "canonical": "fireLit || !haveMatches",
+    "answer": "fireLit && haveMatches || fireLit &&! haveMatches",
+    "correct": false,
+    "timestamp": 1662069598361
   }
 ]
