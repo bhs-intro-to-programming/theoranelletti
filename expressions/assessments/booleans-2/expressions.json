@@ -117,5 +117,12 @@
     "answer": "fast && strong",
     "correct": true,
     "timestamp": 1662069971243
+  },
+  {
+    "name": "Having fun?",
+    "canonical": "done || !fun",
+    "answer": "done && !fun || done && fun || !done && ! fun",
+    "correct": true,
+    "timestamp": 1662069998876
   }
 ]
