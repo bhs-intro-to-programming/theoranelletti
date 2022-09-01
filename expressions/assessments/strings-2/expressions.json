@@ -47,5 +47,12 @@
     "answer": "s[0]",
     "correct": true,
     "timestamp": 1662070267364
+  },
+  {
+    "name": "Last three",
+    "canonical": "s.substring(s.length - 3)",
+    "answer": "s.substring(s.lengh -3)",
+    "correct": false,
+    "timestamp": 1662070389824
   }
 ]
