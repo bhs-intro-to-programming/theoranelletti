@@ -54,5 +54,12 @@
     "answer": "4 * Math.PI",
     "correct": true,
     "timestamp": 1662069376984
+  },
+  {
+    "name": "Sum",
+    "canonical": "a + b",
+    "answer": "a + b",
+    "correct": true,
+    "timestamp": 1662069383984
   }
 ]
