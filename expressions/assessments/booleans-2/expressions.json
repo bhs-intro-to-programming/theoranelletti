@@ -89,5 +89,12 @@
     "answer": "!afraidOfTheDark &&! afraidOfSpiders",
     "correct": true,
     "timestamp": 1662069885209
+  },
+  {
+    "name": "Wait for a sale?",
+    "canonical": "!storeOpen || !isASale",
+    "answer": "sstoreOpen && isASale",
+    "correct": false,
+    "timestamp": 1662069929594
   }
 ]
