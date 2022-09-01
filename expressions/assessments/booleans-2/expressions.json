@@ -19,5 +19,12 @@
     "answer": "fireLit && haveMatches || fireLit &&! haveMatches || ! fireLit &&! haveMatches",
     "correct": true,
     "timestamp": 1662069635849
+  },
+  {
+    "name": "Can go to prom?",
+    "canonical": "isSenior || invitedBySenior",
+    "answer": "isSenior && invitedBySenior || ! isSenior && invitedBySenior || isSenior && !invitedBySenior",
+    "correct": true,
+    "timestamp": 1662069663874
   }
 ]
