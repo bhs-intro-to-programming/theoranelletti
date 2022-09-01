@@ -61,5 +61,12 @@
     "answer": "! enoughSleep &&! eatenEnough",
     "correct": true,
     "timestamp": 1662069779286
+  },
+  {
+    "name": "Not feeling it?",
+    "canonical": "!fun || tired",
+    "answer": "!fun && tired || !fun &&! tired || fun && tired",
+    "correct": true,
+    "timestamp": 1662069812687
   }
 ]
