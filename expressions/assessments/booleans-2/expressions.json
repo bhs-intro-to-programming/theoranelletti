@@ -75,5 +75,12 @@
     "answer": "! sleepy && dark || ! sleepy &&! dark || sleepy &&! dark",
     "correct": true,
     "timestamp": 1662069836367
+  },
+  {
+    "name": "In the room where it happens?",
+    "canonical": "inTheClass || isProctor",
+    "answer": "inTheClass && isProctor || ! inTheClass && isProctor || inTheClass &&! isProctor",
+    "correct": true,
+    "timestamp": 1662069859064
   }
 ]
