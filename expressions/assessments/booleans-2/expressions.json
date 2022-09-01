@@ -124,5 +124,12 @@
     "answer": "done && !fun || done && fun || !done && ! fun",
     "correct": true,
     "timestamp": 1662069998876
+  },
+  {
+    "name": "Can pay attention?",
+    "canonical": "!hungry && interested",
+    "answer": "! hungry && interested",
+    "correct": true,
+    "timestamp": 1662070043294
   }
 ]
