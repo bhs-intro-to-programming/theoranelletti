@@ -5,4 +5,12 @@ const drawFrame = (time) => {
   drawFilledCircle((time / 7200) % width, height / 1.2, 25, 'blue');
 };
 
-animate(drawFrame);
+const drawBall = (x1, y1, x2, y2, time, color) => {
+  const d = distance(x1, y1, x2, y2);
+  const p = fromStart(d, time, 2500);
+  const x = x1 + p / d * (x2 - x1);
+  const y = y1 + p / d * (y2 - y1);
+  drawFilledCircle(x, y, 10, color);
+};
+  
+  animate(drawFrame);
