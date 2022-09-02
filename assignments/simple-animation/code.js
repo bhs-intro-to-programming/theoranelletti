@@ -11,23 +11,6 @@ const drawFrame = (time) => {
   drawFilledCircle((time / 7200) % width, height / 1.2, 25, 'blue');
 };
 
-// This draws a falling trangle of a particular shape whose bottom point is
-// positioned at x and whose y is a function of time.
-const drawFallingTriangle = (x, time ) => {
-  // Figure out the x values relative to the passed in x
-  let x1 = x - 0;
-  let x2 = x;
-  let x3 = x + 0;
-
-  // Figure out the y values as a function of time.
-  let y1 = (time / 1) % height;
-  let y2 = y1 + 0;
-  let y3 = y1 - 0;
-
-  // Actually draw the triangle.
-  drawTriangle(x1, y1, x2, y2, x3, y3, 'pink', 3);
-};
-
 // Leave this code here or the animation won't run. Also don't change the name
 // of drawFrame either here or where it is defined. (Or, if you must, change it
 // the same way in both places.)
