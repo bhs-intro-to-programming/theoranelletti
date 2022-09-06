@@ -17,3 +17,9 @@ const mod
 const averageOfTwo = (a,b) => {
   return (a+b)/2;
 }
+const averageOfThree = (a,b,c) => {
+  return (a+b+c)/3;
+}
+const distance = (a,b) => {
+  return a%b;
+}
