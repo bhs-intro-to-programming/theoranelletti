@@ -17,8 +17,8 @@
  *
  */
 x1 = isRed
-x2 = isSpotted
-let isFloppyBird  = (x1, x2) => {
+let let x2 = isSpotted
+const isFloppyBird  = (x1, x2) => {
   (x1);
   (x2)
 }
