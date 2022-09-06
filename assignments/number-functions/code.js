@@ -1,2 +1,3 @@
-let (x1) = add
-x1
+const add = 1 + 1 => {
+1 + 1
+}
