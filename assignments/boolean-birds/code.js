@@ -23,3 +23,6 @@ return red &&! spotted
 const isFlibbleBird = (red,spotted) => {
 return ! red && spotted
 }
+const isGlobby = (red,spotted) => {
+return ! red &&! spotted
+}
