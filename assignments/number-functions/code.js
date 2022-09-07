@@ -26,6 +26,9 @@ const distance = (x1,y1) => {
 const manhattanDistance = (x1,y1,x2,y2) => {
   return Math.abs(x1-x2) + Math.abs(y1-y2);
 }
-const euclideanDistance = (x1,y1,x2,y2) => {
+const euclideanDistanc = (x1,y1,x2,y2) => {
   return Math.sqrt(Math.abs(x1-x2)) +  Math.sqrt(Math.abs(y1-y2));
+}
+const euclideanDistance = (a, b) => {
+  Math.hypot(...Object.keys(a).map(k => b[k] - a[k]));
 }
