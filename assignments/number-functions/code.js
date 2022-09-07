@@ -29,9 +29,3 @@ const manhattanDistance = (x1,y1,x2,y2) => {
 const euclideanDistanc = (x1,y1,x2,y2) => {
   return Math.sqrt(Math.abs(x1-x2)) +  Math.sqrt(Math.abs(y1-y2));
 }
-const euclideanDistance double distance (Point other) {
-    double deltaX = ycoord - other.ycoord;
-    double deltaY = xcoord - other.xcoord;
-    double result = Math.sqrt(deltaX*deltaX + deltaY*deltaY);
-    return result; 
-}
