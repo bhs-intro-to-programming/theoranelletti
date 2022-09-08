@@ -32,3 +32,21 @@ const eatsWorms = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
 const eatsNuts = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
   return FlobbyBirds &&! FlibbleBirds || BloggyBirds || GlobbyBirds
 }
+const eatsFish = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
+  return FlobbyBirds &&! FlibbleBirds || BloggyBirds || GlobbyBirds
+}
+const eatsMice = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
+  return FlobbyBirds &&! FlibbleBirds || BloggyBirds || GlobbyBirds
+}
+const isRed = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
+  return FlobbyBirds &&! FlibbleBirds || BloggyBirds || GlobbyBirds
+}
+const isSpotted = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
+  return FlobbyBirds &&! FlibbleBirds || BloggyBirds || GlobbyBirds
+}
+const isNotRed = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
+  return FlobbyBirds &&! FlibbleBirds || BloggyBirds || GlobbyBirds
+}
+const isNotSpotted = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
+  return FlobbyBirds &&! FlibbleBirds || BloggyBirds || GlobbyBirds
+}
