@@ -33,5 +33,5 @@ const eatsNuts = (red,spotted) => {
   return red ||! spotted
 }
 const eatsFish = (red,spotted) => {
-  return red ||! spotted
+  return ! red || spotted
 }
