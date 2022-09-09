@@ -38,6 +38,9 @@ const eatsFish = (red,spotted) => {
 const eatsMice = (red,spotted) => {
   return ! red ||! spotted
 }
+const isRed = (red) => {
+  return red==='Flobby'||redburd==='Bloggy'
+}
 const isRed = (redburd) => {
   return redburd==='Flobby'||redburd==='Bloggy'
 }
