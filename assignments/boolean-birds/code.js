@@ -41,3 +41,6 @@ const eatsMice = (red,spotted) => {
 const isRed = (red) => {
   return red==='Flobby'||red==='Bloggy'
 }
+const isSpotted = (spot) => {
+  return spot==='Flobby'||spot==='Flibble'
+}
