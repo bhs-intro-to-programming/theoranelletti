@@ -5,6 +5,6 @@ const drawFrame = (time) => {
   drawFilledCircle((time / 7200) % width, height / 1.2, 25, 'blue');
 };
 
-drawFilledTriangle(10, 10, 10, height/2, width/2, height/3, 'blue');
+const drawFilledTriangle(10, 10, 10, height/2, width/2, height/3, 'blue');
   
   animate(drawFrame);
