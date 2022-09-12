@@ -32,11 +32,11 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-const pigLatin = (w) => {
-  var l= (w.search(/[aeiou]/))
-  return w.substring(l,w.length) + w.substring(0,l) + 'ay'
+const pigLatin = (s) => {
+  var l= (s.search(/[aeiou]/))
+  return s.substring(o,s.length) + s.substring(0,o) + 'ay'
 }
-const advancedPigLatin = (w) => {
-  var l= (w.search(/[aeiou]/))
-  return l === 0 ? w+"way" : w.substring(l,w.length) + w.substring(0,l) + 'ay'
+const advancedPigLatin = (s) => {
+  var l= (s.search(/[aeiou]/))
+  return l === 0 ? s+"way" : s.substring(o,s.length) + s.substring(0,o) + 'ay'
 }
