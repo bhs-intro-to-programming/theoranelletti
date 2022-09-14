@@ -14,39 +14,39 @@
  *   - Flibble Birds eat fish, mice, and worms.
  *   - Globby Birds eat fish, mice, and nuts.
  */
-const isFlobbyBird = (red, spotted) => {
-  return red && spotted
+const isFlobbyBird = (redbird, spottedbird) => {
+  return redbird && spottedbird
 }
-const isBloggyBird = (red, spotted) => {
-  return red && !spotted
+const isBloggyBird = (redbird, spottedbird) => {
+  return redbird && !spottedbird
 }
-const isFlibbleBird = (red, spotted) => {
-  return !red && spotted
+const isFlibbleBird = (redbird, spottedbird) => {
+  return !redbird && spottedbird
 }
-const isGlobbyBird = (red, spotted) => {
-  return !red && !spotted
+const isGlobbyBird = (redbird, spottedbird) => {
+  return !redbird && !spottedbird
 }
-const eatsWorms = (red, spotted) => {
-  return red || spotted
+const eatsWorms = (redbird, spottedbird) => {
+  return redbird || spottedbird
 }
-const eatsNuts = (red, spotted) => {
-  return red || !spotted
+const eatsNuts = (redbird, spottedbird) => {
+  return redbird || !spottedbird
 }
-const eatsFish = (red, spotted) => {
-  return !red || spotted
+const eatsFish = (redbird, spottedbird) => {
+  return !redbird || spottedbird
 }
-const eatsMice = (red, spotted) => {
-  return !red || !spotted
+const eatsMice = (redbird, spottedbird) => {
+  return !redbird || !spottedbird
 }
-const isRed = (red) => {
-  return red === 'Flobby' || red === 'Bloggy'
+const isRed = (redbird) => {
+  return redbird === 'Flobby' || redbird === 'Bloggy'
 }
-const isSpotted = (spot) => {
-  return spot === 'Flobby' || spot === 'Flibble'
+const isSpotted = (spottedbird) => {
+  return spottedbird === 'Flobby' || spottedbird === 'Flibble'
 }
-const isNotRed = (notred) => {
-  return notred === 'Flibble' || notred === 'Globby'
+const isNotRed = (notredbird) => {
+  return notredbird === 'Flibble' || notredbird === 'Globby'
 }
-const isNotSpotted = (notspot) => {
-  return notspot === 'Bloggy' || notspot === 'Globby'
+const isNotSpotted = (notspottedbird) => {
+  return notspottedbird === 'Bloggy' || notspottedbird === 'Globby'
 }
