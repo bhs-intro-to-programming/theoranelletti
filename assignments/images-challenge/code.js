@@ -24,6 +24,6 @@
  *  clear()
  */
 
-const fillwithcircles () => {
+const fillwithcircles [] => {
 let x = 0; x > 999 x++;
 };
