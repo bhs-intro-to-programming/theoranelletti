@@ -31,3 +31,12 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
+
+const pigLatin = (s) => {
+  let i = s.search(/[aeiou]/);
+  return s.substring(i, s.length) + s.substring(0, i) + 'ay'
+}
+const advancedPigLatin = (s) => {
+  let i = s.search(/[aeiou]/);
+  return i === 0 ? s + "way" : s.substring(i) + s.substring(0, i) + 'ay'
+}
