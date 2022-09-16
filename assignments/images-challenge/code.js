@@ -25,5 +25,5 @@
  */
 
 const fillwithcircles () => {
-let x = 0; x > 450, x++
+let x = 0; x > 999 x++;
 };
