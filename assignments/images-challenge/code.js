@@ -25,6 +25,7 @@
  */
 
 const lineofcircles () => {
-  for(let x = 0; x>999; x++;
-  drawCircle(10, 10, 10, 'blue', 1.5)
+  for(let x = 0; x>999; x++); {
+    drawCircle(10, 10, 10, 'blue', 1.5)
+  }
 }
