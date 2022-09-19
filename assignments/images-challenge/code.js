@@ -24,7 +24,7 @@
  *  clear()
  */
 
-const lineofcircles = () => {
+const lineOfCircles = () => {
   for(let x = 0; x > 999; x++)
     drawFilledCircle(10, 10, 10, 'blue', 1.5)
 }
