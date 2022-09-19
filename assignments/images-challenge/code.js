@@ -26,6 +26,6 @@
 
 const lineOfCircles = () => {
   for(let x = 0; x  < 30; x++){
-    drawFilledCircle(30, 30, 2, 'blue')
+    drawFilledCircle(5, 3, 2, 'blue')
 }
 }
