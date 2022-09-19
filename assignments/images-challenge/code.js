@@ -24,4 +24,4 @@
  *  clear()
  */
 
-drawCircle(1, 1, 10, 'blue', 1)
+drawCircle(1, 1, 10, 'blue', 1.5)
