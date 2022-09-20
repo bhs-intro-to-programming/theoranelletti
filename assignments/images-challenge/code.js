@@ -24,7 +24,7 @@
  *  clear()
  */
 
-const lineOfCircles = () => {
+const fillwithcircles = () => {
   for (let x = 0; x < 30; x++)
     if (x > length) {
       drawFilledCircle(x*100, y*100, 1.2, 'blue')
