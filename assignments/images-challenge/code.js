@@ -25,7 +25,7 @@
  */
 
 const fillwithcircles = () => {
-  for (let x = 0; x < 80; x++)
+  for (let x = 0; x < 20; x++)
     if (x > length) {
       drawFilledCircle(x*15.5, height/2, 8, 'red', 1)
     }
