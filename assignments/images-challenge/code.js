@@ -30,3 +30,4 @@ const fillwithcircles = () => {
       drawFilledCircle(x*10, height/2.5, 1.2, 'red', 1)
     }
 }
+fillwithcircles ();
