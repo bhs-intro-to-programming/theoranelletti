@@ -26,5 +26,7 @@
 
 const lineOfCircles = () => {
   for (let x = 0; x < 30; x++)
+  if (x > length){
     drawFilledCircle(5, 3, 2, 'red')
+  }
 }
