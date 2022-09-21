@@ -39,6 +39,7 @@ const fillwithcircles = () => {
     }
 }
 fillwithcircles();
+
 const fillwithcircless = () => {
   for (let x = 12; x < 25; x++)
     if (x > 0) {
