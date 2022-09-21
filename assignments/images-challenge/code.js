@@ -40,7 +40,7 @@ const fillwithcircles = () => {
 }
 fillwithcircles();
 const fillwithcircless = () => {
-  for (let x = 6; x < 12; x++)
+  for (let x = 6; x < 25; x++)
     if (x > 0) {
       drawFilledCircle(x * 20, height / 3, 8, 'red')
     }
