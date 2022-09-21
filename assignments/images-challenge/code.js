@@ -31,19 +31,3 @@ const fillwithcircle = () => {
     }
 }
 fillwithcircle();
-
-const fillwithcircles = () => {
-  for (let x = 1; x < 12.5; x++)
-    if (x > 0) {
-      drawFilledCircle(x * 20, height / 3, 8, 'blue')
-    }
-}
-fillwithcircles();
-
-const fillwithcircless = () => {
-  for (let x = 12.5; x < 25; x++)
-    if (x > 0) {
-      drawFilledCircle(x * 20, height / 3, 8, 'red')
-    }
-}
-fillwithcircless();
