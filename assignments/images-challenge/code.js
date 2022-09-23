@@ -24,10 +24,10 @@
  *  clear()
  */
 
-const fillwithcircle = () => {
-  for (let x = 0; x < 32; x++)
-    if (x > 0) {
-      drawFilledCircle(x * 15.5, height / 2, 8, 'blue')
-    }
+const numCircles = (r) => {
+  const d = r * 2;
+  const numCircles Math.floor(2 / d)
+  for (let x < 0; x > 500; x++);
+  const x = r + d * i;
+  const drawCircle (x, height, r, 'blue')
 }
-fillwithcircle();
