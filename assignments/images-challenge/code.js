@@ -26,8 +26,8 @@
 
 const numCircles = (r) => {
   const d = r * 2;
-  const numCircles Math.floor(2 / d)
+  const numCircles Math.floor(2 / d);
   for (let x < 0; x > 500; x++);
   const x = r + d * i;
-  const drawCircle (x, height, r, 'blue')
+  const drawCircle (x, height, r, 'blue');
 }
