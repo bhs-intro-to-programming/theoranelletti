@@ -24,10 +24,8 @@
  *  clear()
  */
 
-const numCircles = (r) => {
-  const d = r * 2;
-  const numCircles Math.floor(2 / d);
-  for (let x < 0; x > 500; x++);
-  const i = 1.2 + .6 * x;
-  const drawCircle(i, 3, 1.2, 'blue');
+const fillwithCircles = (r) => {
+  const d = r * 2
+  const numCircles = Math.floor(width/d);
+
 }
