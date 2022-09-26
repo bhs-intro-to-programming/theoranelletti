@@ -25,7 +25,7 @@
  */
 
 
-const fillwithCircles = (k) => {
+const fillwithCircles = (r) => {
   const numCircles = Math.Floor * (width / d);
   const d = r * 2;
   for (let x = 1; x < numCircles; x++) {
