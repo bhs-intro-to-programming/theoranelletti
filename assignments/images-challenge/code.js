@@ -27,7 +27,7 @@
 let d = 1
 const numCircles = Math.floor(width / d);
 const fillwithCircles = (r) => {
-  const d = r * 2;
+  const d = r * 2
   for (let x = 1; x < numCircles; x++)
     if (x > length) {
       drawFilledCircle(x * 50, height / 500, 23, 'blue')
