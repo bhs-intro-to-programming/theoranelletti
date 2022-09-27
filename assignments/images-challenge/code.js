@@ -29,7 +29,9 @@ const fillwithCircles = (d) => {
   const numCircles = Math.Floor(width / d);
   const d = r * 2;
   for (let x = 1; x < numCircles; x++) {
-    drawFilledCircle(x * r * 2, 500, r, 'blue')
+    if (x > length) {
+      drawFilledCircle(x * r * 2, 500, r, 'blue')
+    }
   }
 }
 fillwithcircles(18);
