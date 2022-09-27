@@ -24,10 +24,11 @@
  *  clear()
  */
 
-const numCircles = Math.Floor * (width / d) {
-  const fillwithCircles = (r);
-    const d = r * 2
+let d = 1
+const fillwithCircles = (d) => {
+  const numCircles = Math.Floor * (width / d);
+  const d = r * 2;
   for (let x = 1; x < numCircles; x++) {
-    drawFilledCircle(x * r * 2, 500, r, '#ffff')
+    drawFilledCircle(x * r * 2, 500, r, 'blue')
   }
 }
