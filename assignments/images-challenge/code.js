@@ -32,5 +32,5 @@ const fillwithCircles = (r) => {
     if (x > length) {
       drawFilledCircle(x * 50, height / 500, 23, 'blue')
     }
-  }
-  fillwithcircles(20);
+}
+fillwithcircles(20);
