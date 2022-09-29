@@ -24,7 +24,6 @@
  *  clear()
  */
 
-let d = 1
 const n = Math.floor(width / d);
 const fillwithCircles = (r) => {
   const d = r * 2
