@@ -24,6 +24,7 @@
  *  clear()
  */
 
+fillwithCircles(25);
 const fillwithCircles = (r) => {
   const d = r * 2
   const numcircles = Math.floor(width / d);
@@ -33,4 +34,3 @@ const fillwithCircles = (r) => {
       drawFilledCircle(offset + d * x, height / 2, r, 'blue')
     }
 }
-fillwithCircles(25);
