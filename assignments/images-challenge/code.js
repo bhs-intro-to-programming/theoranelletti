@@ -24,13 +24,13 @@
  *  clear()
  */
 
-let d = 1
-const n = Math.floor(width / d);
 const fillwithCircles = (r) => {
   const d = r * 2
-  for (let x = 1; x < n; x++)
+  const numcircles = Math.floor(width / d);
+  const offset = width - (d * numcircles);
+  for (let x = 0; x < numcircles / r; x++)
     if (x > length) {
-      drawFilledCircle(x * 40, height / 2, 20, 'blue')
+      drawFilledCircle(x * r, height / 2, 20, 'blue')
     }
 }
 fillwithCircles(20);
