@@ -30,7 +30,7 @@ const fillwithCircles = (r) => {
   const offset = width - (d * numcircles);
   for (let x = 0; x < numcircles / r; x++)
     if (x > length) {
-      drawFilledCircle(x * r, height / 2, 20, 'blue')
+      drawFilledCircle(offset + d * x, height / 2, 20, 'blue')
     }
 }
 fillwithCircles(20);
