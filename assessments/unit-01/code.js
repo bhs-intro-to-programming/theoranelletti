@@ -4,10 +4,11 @@ const emit = (a, b, product) => {
   console.log(`${a} times ${b} is ${product}`);
 };
 
-let weekday = 'f'
-let weekend, vacation = 't'
-const cantSleepIn = (weekday)
-const canSleepIn = (_weekend, _vacation) => {
+let _weekday = 'f'
+let _weekend, _vacation = 't'
+const cantSleepIn = (_weekday) => {
   if ('f'; return false)
+}
+const canSleepIn = (_weekend, _vacation) => {
   if ('t'; return true)
 }
