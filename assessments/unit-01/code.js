@@ -14,3 +14,11 @@ const hypotenuse = (a, b) => {
 const maxRadius = (width, height) => {
   return Math.min(width, height) / 2
 };
+
+const numCircles = () => {
+
+}
+
+const offset = (widthdrawingarea, widthfigure) => {
+  return 
+}
