@@ -7,3 +7,5 @@ const emit = (a, b, product) => {
 const averageWeight = (weight, items) =>  {
   return weight / items;
 }
+
+const 
