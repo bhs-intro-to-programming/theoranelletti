@@ -4,8 +4,10 @@ const emit = (a, b, product) => {
   console.log(`${a} times ${b} is ${product}`);
 };
 
-const averageWeight = (weight, items) =>  {
+const averageWeight = (weight, items) => {
   return weight / items;
-}
+};
 
-const 
+const hypotenuse = (a, b) => {
+  return Math.sqrt(a ** 2 + b ** 2);
+};
