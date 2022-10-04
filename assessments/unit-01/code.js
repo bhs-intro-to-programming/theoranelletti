@@ -12,5 +12,5 @@ const hypotenuse = (a, b) => {
 };
 
 const maxRadius = (width, height) => {
-  return Math.abs(width, height) / 2
+  return Math.min(width, height) / 2
 };
