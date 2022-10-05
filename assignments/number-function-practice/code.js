@@ -1,3 +1,3 @@
-const sizeOfAlexc = (c) => {
-  return c=0
-}
+const sizeOfscreen = (s) => {
+  return s * 6;
+};
