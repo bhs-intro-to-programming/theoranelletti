@@ -1,3 +1,3 @@
-const sizeOfAlex = (s) => {
+const timeszero = (s) => {
   return s * 0;
 };
