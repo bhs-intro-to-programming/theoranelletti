@@ -16,12 +16,12 @@ const areaOfCircles = (r) => {
   return Math.PI(r ** 2);
 };
 
-const volumeOfCube (length) => {
+const volumeOfCube = (length) => {
   return length ** 3;
 };
 
 const populationGrowth = (current, growth) => {
-  return currentsize + (current / growth);
+  return current * growth;
 };
 
 const earnedRunAverage = (earnedruns, innings) => {
