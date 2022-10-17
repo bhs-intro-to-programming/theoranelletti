@@ -22,8 +22,8 @@ const willSeeTweet = (followed, retweet, blocked) => {
   return followed, retweet, blocked;
 };
 
-const evenGreaterThanZero = () => {
-  return ;
+const evenGreaterThanZero = (number) => {
+  return number>0;
 };
 
 const isLeapYear = (yearnumber) => {
