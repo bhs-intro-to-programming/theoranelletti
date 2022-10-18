@@ -11,5 +11,9 @@ const rand = (n) => Math.floor(Math.random() * n);
 // credit for a clear and simple working function.
 
 const fireAlarm = (pulled, smoke, drill) => {
-  return pulled, smoke, drill;
+  return pulled || smoke || drill;
+};
+
+const canBePresident = (years, naturalborn, livedinUS) => {
+  return years >= 35 && naturalborn && livedinUS >= 14;
 };
