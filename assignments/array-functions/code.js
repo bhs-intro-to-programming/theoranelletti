@@ -19,8 +19,8 @@ const sum = (array) => {
 const evens = (array) => {
   let evenarray = []
   for (const element of array) {
-    if (element % 2 === 0);
+    if (element % 2 === 0)
     evenarray.push(element)
   }
   return evenarray
-};
+}
