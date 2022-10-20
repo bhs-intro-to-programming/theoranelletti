@@ -19,7 +19,7 @@ const sum = (array) => {
 const evens = (array) => {
   let even = 0
   for (const element of array) {
-    add + element;
+    even + element;
   }
   return even
 };
