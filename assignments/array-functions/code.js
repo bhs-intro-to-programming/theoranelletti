@@ -15,3 +15,11 @@ const sum = (array) => {
   }
   return add
 };
+
+const evens = (array) => {
+  let even = 0
+  for (const element of array) {
+    add + element;
+  }
+  return even
+};
