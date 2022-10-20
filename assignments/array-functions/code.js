@@ -7,3 +7,5 @@ const countTens = (array) => {
   }
   return num
 };
+
+const sum
