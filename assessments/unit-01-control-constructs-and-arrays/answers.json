@@ -17,7 +17,7 @@
   "xs[2][1]",
   "Nothing, this code won’t run because xs was declared with const.",
   "false",
-  "The sum of the numbers from 0 to numbers.length.",
+  "The sum of all but the last number in the array.",
   "Produces a new array containing all the words in words in uppercase.",
   "Their is a result array that pushes out all of the words with the length - i and returns all of the words that aren't pushed out into the array."
 ]
