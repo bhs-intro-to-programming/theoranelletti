@@ -14,7 +14,7 @@
   "xs[xs.length - 1]",
   "2",
   "undefined",
-  "xs[1][2]",
+  "xs[2][1]",
   "300",
   "false"
 ]
