@@ -8,3 +8,4 @@
 registerOnclick((x, y) => {
   drawText('X', 800, 500, 'black', Math.min(50, 50) * 0.3);
 });
+p
