@@ -13,4 +13,5 @@ const drawLine = () => {
   for (let i = 0; i < 2; i++) {
     drawLine(width / 3, 0, width / 3, height, 'black', 1)
   }
+  
 }
