@@ -16,7 +16,7 @@ const drawBoard = () => {
   }
   for (let i = 0; i < 2; i++) {
     const x = (i + 1) * height / 3
-    drawLine(x, 0, x, width, 'black', 3)
+    drawLine(0, x, width, x, 'black', 3)
   }
 }
 
