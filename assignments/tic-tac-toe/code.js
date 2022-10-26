@@ -11,11 +11,11 @@ registerOnclick((x, y) => {
 
 const drawBoard = () => {
   for (let i = 0; i < 2; i++) {
-    const x = (i + 1) * width / 3.2
+    const x = (i + 1) * width / 3.5
     drawLine(x, 0, x, height, 'black', 3)
   }
   for (let i = 0; i < 2; i++) {
-    const x = (i + 1) * height / 3.2
+    const x = (i + 1) * height / 2.8
     drawLine(0, x, width, x, 'black', 3)
   }
 }
