@@ -29,5 +29,5 @@ const yRow = (y) => {
 
 const xRow = (x) => {
   let rowWidth = width / 3;
-  Math.floor(rowwidth)
+  Math.floor(rowWidth)
 }
