@@ -21,3 +21,13 @@ const drawBoard = () => {
 }
 
 drawBoard()
+
+const yRow = (y) => {
+  let rowHeight = height / 3;
+  Math.floor(rowHeight)
+}
+
+const xRow = (x) => {
+  let rowWidth = width / 3;
+  Math.floor(rowwidth)
+}
