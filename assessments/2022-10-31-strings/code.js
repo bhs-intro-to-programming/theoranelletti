@@ -20,5 +20,5 @@ const firstHalf = (s) => {
 }
 
 const upDown = (s) => {
-  return toUpperCase(s.length)
+  return toUpperCase(s.length) + s.length
 }
