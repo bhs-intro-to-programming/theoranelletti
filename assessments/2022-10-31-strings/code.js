@@ -18,3 +18,7 @@ const firstHalf = (s) => {
 const firstHalf = (s) => {
   return s.substring()
 }
+
+const upDown = (s) => {
+  return toUpperCase(s.length)
+}
