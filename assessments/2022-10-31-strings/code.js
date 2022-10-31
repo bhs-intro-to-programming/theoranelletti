@@ -15,10 +15,14 @@ const firstHalf = (s) => {
   return s.substring(0, s.length / 2)
 }
 
-const firstHalf = (s) => {
+const secondtHalf = (s) => {
   return s.substring()
 }
 
 const upDown = (s) => {
   return toUpperCase(s.length) + s.length
+}
+
+const firstFewEveryOther = (s) => {
+  return 
 }
