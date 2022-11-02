@@ -5,8 +5,10 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
+let turn = "X";
 registerOnclick((x, y) => {
   drawText ('O', x - 50, y + 50, 'black', Math.min(600, 600) * 0.3);
+  turn = turn === "X" ? turn = "O" : turn = "X";
 });
 
 const drawBoard = () => {
