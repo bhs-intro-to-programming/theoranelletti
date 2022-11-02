@@ -7,7 +7,7 @@
 
 let turn = "X";
 registerOnclick((x, y) => {
-  drawText ('O', x - 50, y + 50, 'black', Math.min(600, 600) * 0.3);
+  drawText (turn, x - 50, y + 50, 'black', Math.min(600, 600) * 0.3);
   turn = turn === "X" ? turn = "O" : turn = "X";
 });
 
