@@ -7,7 +7,17 @@
 
 let turn = "X";
 registerOnclick((x, y) => {
-  drawText (turn, x - 50, y + 50, 'black', Math.min(600, 600) * 0.3);
+
+  const yRow = (y) => {
+    let rowHeight = height / 3;
+    return Math.floor(rowHeight)
+  }
+
+  const xRow = (x) => {
+    let rowWidth = width / 3;
+    return Math.floor(rowWidth)
+  }
+  drawText(turn, xRow * (width / 3) + width / 6, yRow * (height / 3) + height / 6, 'black', Math.min(600, 600) * 0.3);
   turn = turn === "X" ? turn = "O" : turn = "X";
 });
 
@@ -23,13 +33,3 @@ const drawBoard = () => {
 }
 
 drawBoard()
-
-const yRow = (y) => {
-  let rowHeight = height / 3;
-  Math.floor(rowHeight)
-}
-
-const xRow = (x) => {
-  let rowWidth = width / 3;
-  Math.floor(rowWidth)
-}
