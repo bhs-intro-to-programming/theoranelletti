@@ -10,12 +10,12 @@ registerOnclick((x, y) => {
 
   const yRow = (y) => {
     let rowHeight = height / 3;
-    return Math.floor(rowHeight)
+    return Math.floor(y / rowHeight)
   }
 
   const xRow = (x) => {
     let rowWidth = width / 3;
-    return Math.floor(rowWidth)
+    return Math.floor(x / rowWidth)
   }
   drawText(turn, xRow * (width / 3) + width / 6, yRow * (height / 3) + height / 6, 'black', Math.min(600, 600) * 0.3);
   turn = turn === "X" ? turn = "O" : turn = "X";
