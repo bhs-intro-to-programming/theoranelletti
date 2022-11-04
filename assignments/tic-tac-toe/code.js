@@ -6,7 +6,7 @@
 // weeks but for now you can just adapt this code.
 
 let turn = "X";
-registerOnclick((x, y) => {
+registerOnclick(x, y) => {
 
   const yRow = (y) => {
     let rowHeight = height / 3;
@@ -19,7 +19,7 @@ registerOnclick((x, y) => {
   }
   drawText(turn, xRow * (width / 3) + width / 6, yRow * (height / 3) + height / 6, 'black', Math.min(600, 600) * 0.3);
   turn = turn === "X" ? turn = "O" : turn = "X";
-});
+};
 
 const drawBoard = () => {
   for (let i = 0; i < 2; i++) {
