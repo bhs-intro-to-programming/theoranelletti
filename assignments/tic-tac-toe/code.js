@@ -8,14 +8,14 @@
 let turn = "X";
 registerOnclick((x, y) => {
 
-  const yRow = (y) => {
+  const box_y = (y) => {
     const box_y = Math.floor(y / rowHeight)
   }
 
-  const xRow = (x) => {
+  const box_x = (x) => {
     const box_x = Math.floor(x / rowWidth)
   }
-  drawText(turn, xRow * (width / 3) + width / 6, yRow * (height / 3) + height / 6, 'black', Math.min(600, 600) * 0.3);
+  drawText(turn, box_x * (width / 3) + width / 6, box_y * (height / 3) + height / 6, 'black', Math.min(600, 600) * 0.3);
   turn = turn === "X" ? turn = "O" : turn = "X";
 });
 
