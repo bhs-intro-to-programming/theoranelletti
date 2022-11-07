@@ -1,5 +1,5 @@
-const getX = (o) => {
-  return o.x
+const getX = (object) => {
+  return object.x
 }
 
 const point = (x, y) => {
@@ -8,4 +8,8 @@ const point = (x, y) => {
 
 const emptyObject = () => {
   return {}
+}
+
+const distance = () => {
+
 }
