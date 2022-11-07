@@ -25,3 +25,7 @@ const sumSalaries = (array) => {
   }
   return sum
 }
+
+const newHighScore = () => {
+  
+}
