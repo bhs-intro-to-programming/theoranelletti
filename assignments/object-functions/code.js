@@ -5,5 +5,5 @@ const getX = (o) => {
 const point = (o1, o2) => {
   const o1 = x
   const o2 = y
-  return o1 + o2
+  return x + y
 }
