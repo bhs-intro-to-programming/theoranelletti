@@ -1,3 +1,3 @@
 const getX = (x) => {
-  const x [];
-};
+  const x []
+}
