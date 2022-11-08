@@ -36,4 +36,12 @@ const newHighScore = (current, array) => {
   return highScore
 }
 
-const 
+const summarizeBooks = (books) => {
+  let titles = []
+  let pages = 0
+  for(let i = 0; i < books.length; i++) {
+    titles.push(books[i].title)
+    pages += books[i].pages
+  }
+  return { 'titles' : titles , 'pages' : pages}
+}
