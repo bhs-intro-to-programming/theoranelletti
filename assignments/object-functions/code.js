@@ -35,3 +35,5 @@ const newHighScore = (current, array) => {
   }
   return highScore
 }
+
+const 
