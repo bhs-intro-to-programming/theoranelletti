@@ -32,4 +32,9 @@ const anyOverOneHundred = (array) => {
     enevenarray.push(element)
   }
   return true
+  for (const element of array) {
+    if (element <= 100 === 0)
+    enevenarray.push(element)
+  }
+  return flase
 }
