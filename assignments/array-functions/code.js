@@ -26,7 +26,7 @@ const evens = (array) => {
 }
 
 const anyOverOneHundred = (array) => {
-  let onehundred <= 100
+  let onehundred = 100
   for (const element of array) {
     if (element <= 100 === 0)
     enevenarray.push(element)
