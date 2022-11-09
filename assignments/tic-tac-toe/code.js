@@ -13,8 +13,8 @@ registerOnclick((x, y) => {
 
   const rowWidth = width / 3
   const box_x = Math.floor(x / rowWidth)
-  drawText(turn, box_x * (width / 3) - 75 + width / 6, box_y * (height / 3) + 75 + height / 6, 'black', 180;
-  turn = turn === "X" ? turn = "O" : turn = "X";
+  drawText(turn, box_x * (width / 3) - 75 + width / 6, box_y * (height / 3) + 75 + height / 6, 'black', 180);
+  turn = turn === "X" ? "O" : "X";
 });
 
 const drawBoard = () => {
