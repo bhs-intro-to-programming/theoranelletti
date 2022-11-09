@@ -10,3 +10,19 @@ const rand = (n) => Math.floor(Math.random() * n);
 // reasonable argument list. To get full credit you need to write a correct
 // function but you can get partial credit for a function that is basically
 // correct even if contains small mistakes.
+
+const firstHalf = (s) => {
+  return s.substring(0, s.length / 2)
+}
+
+const secondtHalf = (s) => {
+  return s.substring()
+}
+
+const upDown = (s) => {
+  return toUpperCase(s.length) + s.length
+}
+
+const firstFewEveryOther = (s) => {
+  return 
+}
