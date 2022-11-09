@@ -43,5 +43,5 @@ const summarizeBooks = (books) => {
     titles.push(books[i].title)
     pages += books[i].pages
   }
-  return { 'titles' : titles , 'pages' : pages}
+  return { titles : titles , pages : pages}
 }
