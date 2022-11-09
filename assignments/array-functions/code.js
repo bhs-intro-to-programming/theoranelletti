@@ -31,5 +31,5 @@ const anyOverOneHundred = (array) => {
     if (element <= 100 === 0)
     enevenarray.push(element)
   }
-  return onehundred
+  return true
 }
