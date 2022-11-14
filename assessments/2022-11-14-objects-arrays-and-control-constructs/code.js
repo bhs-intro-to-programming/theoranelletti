@@ -10,7 +10,7 @@ const higherPaid = (e1, e2) => {
 };
 
 const isSamePoint = (p1, p2) => {
-  return {}
+  return {'x' : x , 'y' : y}
 };
 
 const totalWithTip = (bill, tipPercentage) => {
