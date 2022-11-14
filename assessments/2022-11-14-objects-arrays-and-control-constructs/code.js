@@ -2,7 +2,9 @@
 // should save you some time.
 
 const area = (rect) => {
-  return 
+  let w = width
+  let l = length
+  return rect = w + l
 };
 
 const higherPaid = (e1, e2) => {
@@ -10,6 +12,7 @@ const higherPaid = (e1, e2) => {
 };
 
 const isSamePoint = (p1, p2) => {
+  return {}
 };
 
 const totalWithTip = (bill, tipPercentage) => {
