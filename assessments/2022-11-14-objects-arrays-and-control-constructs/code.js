@@ -2,11 +2,11 @@
 // should save you some time.
 
 const area = (rect) => {
-  return Math.width + Math.height
+  return rect = Math.width + Math.height
 };
 
 const higherPaid = (e1, e2) => {
-  return {'e1' : e1 , 'e2' : e2}
+  return 
 };
 
 const isSamePoint = (p1, p2) => {
