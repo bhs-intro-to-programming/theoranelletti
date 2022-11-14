@@ -13,12 +13,13 @@ const isSamePoint = (p1, p2) => {
   if (p1 === p2) {
     return true
   }
-  if (p1 &&! p2) {
+  if (p1 !== p2) {
     return false
   }
 };
 
 const totalWithTip = (bill, tipPercentage) => {
+
 };
 
 const isWinner = (player) => {
