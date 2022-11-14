@@ -12,7 +12,9 @@ const higherPaid = (e1, e2) => {
 const isSamePoint = (p1, p2) => {
   if (p1 === p2) {
     return true
-    else return false
+  }
+  if (p1 &! p2) {
+    return false
   }
 };
 
