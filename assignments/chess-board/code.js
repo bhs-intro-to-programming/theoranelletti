@@ -27,11 +27,11 @@ registerOnclick((x, y) => {
 });
 
 const drawBoard = () => {
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 7; i++) {
     const x = (i + 1) * width / 3
     drawLine(x, 0, x, height, 'black', 3)
   }
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 7; i++) {
     const x = (i + 1) * height / 3
     drawLine(0, x, width, x, 'black', 3)
   }
