@@ -31,7 +31,7 @@ drawText(WHITE_BISHOP, width/2, height/10, 'black', 64);
 drawText(WHITE_KNIGHT, width/2, height/10, 'black', 64);
 drawText(WHITE_PAWN, width/2, height/6, 'black', 64);
 drawText(BLACK_KING, width/1.87, height/1.04, 'black', 64);
-drawText(BLACK_QUEEN, width/2, height/1.04, 'black', 64);
+drawText(BLACK_QUEEN, width/2.5, height/1.04, 'black', 64);
 drawText(BLACK_ROOK, width/2, height/1.04, 'black', 64);
 drawText(BLACK_BISHOP, width/2, height/1.04, 'black', 64);
 drawText(BLACK_KNIGHT, width/2, height/1.04, 'black', 64);
