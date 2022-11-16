@@ -24,7 +24,7 @@ const drawBoard = () => {
 
 drawBoard()
 
-drawText(WHITE_KING, width/1.87, height/9, 'black', 64);
+drawText(WHITE_KING, width/1.87, height/9.5, 'black', 64);
 drawText(WHITE_QUEEN, width/2, height/2, 'black', 64);
 drawText(WHITE_ROOK, width/2, height/2, 'black', 64);
 drawText(WHITE_BISHOP, width/2, height/2, 'black', 64);
