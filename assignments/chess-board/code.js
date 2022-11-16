@@ -40,6 +40,7 @@ drawText(WHITE_PAWN, width/1.52, height/4.5, 'black', 64);
 drawText(WHITE_PAWN, width/3.5, height/4.5, 'black', 64);
 drawText(WHITE_PAWN, width/6.2, height/4.5, 'black', 64);
 drawText(WHITE_PAWN, width/2.5, height/4.5, 'black', 64);
+drawText(WHITE_PAWN, width/1.275, height/4.5, 'black', 64);
 drawText(BLACK_KING, width/1.87, height/1.04, 'black', 64);
 drawText(BLACK_QUEEN, width/2.5, height/1.04, 'black', 64);
 drawText(BLACK_ROOK, width/30, height/1.04, 'black', 64);
