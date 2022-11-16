@@ -35,4 +35,4 @@ drawText(BLACK_QUEEN, width/2, height/1.04, 'black', 64);
 drawText(BLACK_ROOK, width/2, height/1.04, 'black', 64);
 drawText(BLACK_BISHOP, width/2, height/1.04, 'black', 64);
 drawText(BLACK_KNIGHT, width/2, height/1.04, 'black', 64);
-drawText(BLACK_PAWN, width/2, height/1.3, 'black', 64); 
+drawText(BLACK_PAWN, width/2, height/1.2, 'black', 64); 
