@@ -29,3 +29,7 @@ const drawBoard = () => {
 }
 
 drawBoard()
+
+const identifyGame = () => {
+
+}
