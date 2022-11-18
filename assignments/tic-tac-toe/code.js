@@ -4,18 +4,10 @@
 // of the equals sign in our normal `const foo = ...` function definition. This
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
-
-let turn = "X";
-registerOnclick((x, y) => {
-
-  const rowHeight = height / 3
-  const box_y = Math.floor(y / rowHeight)
-
-  const rowWidth = width / 3
-  const box_x = Math.floor(x / rowWidth)
-  drawText(turn, box_x * (width / 3) - 75 + width / 6, box_y * (height / 3) + 75 + height / 6, 'black', 180);
-  turn = turn === "X" ? "O" : "X";
-});
+const cordArray = []
+['','',''],
+['','',''],
+['','',''],
 
 const drawBoard = () => {
   for (let i = 0; i < 2; i++) {
@@ -30,6 +22,14 @@ const drawBoard = () => {
 
 drawBoard()
 
-const identifyGame = () => {
+let turn = "X";
+registerOnclick((x, y) => {
 
-}
+  const rowHeight = height / 3
+  const box_y = Math.floor(y / rowHeight)
+
+  const rowWidth = width / 3
+  const box_x = Math.floor(x / rowWidth)
+  drawText(turn, box_x * (width / 3) - 75 + width / 6, box_y * (height / 3) + 75 + height / 6, 'black', 180);
+  turn = turn === "X" ? "O" : "X";
+});
