@@ -29,19 +29,19 @@ const identifyWin = (turn) => {
   if (cordArray[0, 0] === turn && cordArray[0, 1] === turn && cordArray[0, 2]) {
     winner = { winner: turn, winType: 'horizontal', winLocation: 'top' }
   } else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
-    winner = { winner: turn, winType: 'horizontal', winLocation: 'top' }
-  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
-    winner = { winner: turn, winType: 'horizontal', winLocation: 'top' }
-  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
-    winner = { winner: turn, winType: 'vertical', winLocation: 'top' }
-  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
-    winner = { winner: turn, winType: 'vertical', winLocation: 'top' }
-  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
-    winner = { winner: turn, winType: 'vertical', winLocation: 'top' }
-  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
-    winner = { winner: turn, winType: 'diagonal', winLocation: 'top' }
-  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
-    winner = { winner: turn, winType: 'diagonal', winLocation: 'top' }
+    winner = { winner: turn, winType: 'horizontal', winLocation: 'mid' }
+  }else if (cordArray[2][0] === turn && cordArray[2][1] === turn && cordArray[2][2] == turn) {
+    winner = { winner: turn, winType: 'horizontal', winLocation: 'low' }
+  }else if (cordArray[0][0] === turn && cordArray[1][0] === turn && cordArray[2][0] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'left' }
+  }else if (cordArray[0][1] === turn && cordArray[1][1] === turn && cordArray[2][1] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'mid' }
+  }else if (cordArray[0][2] === turn && cordArray[1][2] === turn && cordArray[2][2] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'right' }
+  }else if (cordArray[0][0] === turn && cordArray[1][1] === turn && cordArray[2][2] == turn) {
+    winner = { winner: turn, winType: 'diagonal', winLocation: 'LToR' }
+  }else if (cordArray[2][0] === turn && cordArray[1][1] === turn && cordArray[0][2] == turn) {
+    winner = { winner: turn, winType: 'diagonal', winLocation: 'RToL' }
   }
   return winner
 }
