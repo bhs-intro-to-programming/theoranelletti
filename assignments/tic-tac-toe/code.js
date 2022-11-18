@@ -24,7 +24,6 @@ const drawBoard = () => {
 
 drawBoard()
 
-let turn = "X";
 registerOnclick((x, y) => {
 
   const rowHeight = height / 3
