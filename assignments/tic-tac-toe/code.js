@@ -5,9 +5,9 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 const cordArray = [
-['','',''],
-['','',''],
-['','',''],
+  ['', '', ''],
+  ['', '', ''],
+  ['', '', ''],
 ]
 let turn = "X";
 
@@ -26,7 +26,24 @@ drawBoard()
 
 let winner
 const identifyWin = (turn) => {
-  
+  if (cordArray[0, 0] === turn && cordArray[0, 1] === turn && cordArray[0, 2]) {
+    winner = { winner: turn, winType: 'horizontal', winLocation: 'top' }
+  } else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
+    winner = { winner: turn, winType: 'horizontal', winLocation: 'top' }
+  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
+    winner = { winner: turn, winType: 'horizontal', winLocation: 'top' }
+  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'top' }
+  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'top' }
+  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'top' }
+  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
+    winner = { winner: turn, winType: 'diagonal', winLocation: 'top' }
+  }else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
+    winner = { winner: turn, winType: 'diagonal', winLocation: 'top' }
+  }
+  return winner
 }
 
 registerOnclick((x, y) => {
