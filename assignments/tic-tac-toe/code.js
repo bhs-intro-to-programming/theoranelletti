@@ -24,6 +24,11 @@ const drawBoard = () => {
 
 drawBoard()
 
+let winner
+const identifyWin = (turn) => {
+  
+}
+
 registerOnclick((x, y) => {
 
   const rowHeight = height / 3
