@@ -35,5 +35,5 @@ const manhattanDistance = (x1, x2, y1, y2) => {
 }
 
 const euclideanDistance = (x1, x2, y1, y2) => {
-  return Math.sqrt(Math.abs(x1 - y1)**2) + (Math.abs(x2 - y2)**2);
+  return (Math.sqrt(Math.abs(x1 - y1)**2) + (Math.abs(x2 - y2)**2));
 }
