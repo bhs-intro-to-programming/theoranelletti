@@ -35,5 +35,5 @@ const wrappingCombos = (wrapping, ribbions, bows) => {
 }
 
 const biggestNumber = (numdigits) => {
-  return numdigits * (9 ** numdigits);
+  return 9 ** numdigits;
 }
