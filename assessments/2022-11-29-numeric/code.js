@@ -15,5 +15,5 @@ const leftOut = (chocolate, people) => {
 }
 
 const probabilityAllHeads = (numbercoinflipped) => {
-  return numbercoinflipped / (numbercoinflipped * 4);
+  return numbercoinflipped / (numbercoinflipped * (numbercoinflipped * 2));
 }
