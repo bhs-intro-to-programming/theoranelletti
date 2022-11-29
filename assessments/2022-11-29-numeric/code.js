@@ -19,5 +19,5 @@ const probabilityAllHeads = (numbercoinflipped) => {
 }
 
 const futureHour = (current, future) => {
-  return current + future
+  return Math.abs(current + (future - 12));
 }
