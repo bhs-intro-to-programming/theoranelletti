@@ -11,7 +11,7 @@ const extraChocolates = (chocolate, people) => {
 }
 
 const leftOut = (chocolate, people) => {
-  return Math.max(chocolate, people)
+  return Math.max(people - chocolate)
 }
 
 const probabilityAllHeads = (numbercoinflipped) => {
