@@ -30,7 +30,7 @@ const perPresent = (totalmoney, numpresents) => {
   return totalmoney / numpresents;
 }
 
-const wrapingCombos = (wrapping, ribbions, bows) => {
+const wrappingCombos = (wrapping, ribbions, bows) => {
   return (wrapping * ribbions) * bows;
 }
 
