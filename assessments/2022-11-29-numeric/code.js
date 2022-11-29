@@ -31,7 +31,7 @@ const perPresent = (totalmoney, numpresents) => {
 }
 
 const wrapingCombos = (wrapping, ribbions, bows) => {
-  return
+  return (wrapping * ribbions) * bows;
 }
 
 const biggestNumber = (numdigits) => {
