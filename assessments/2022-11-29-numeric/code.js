@@ -7,11 +7,11 @@ const chocolatesPerPerson = (chocolate, people) => {
 }
 
 const extraChocolates = (chocolate, people) => {
-  return Math.ceil(chocolate / people);
+  return Math.floor(chocolate / people);
 }
 
 const leftOut = (chocolate, people) => {
-  return Math.max(chocolate + people)
+  return Math.max(chocolate, people)
 }
 
 const probabilityAllHeads = (numbercoinflipped) => {
