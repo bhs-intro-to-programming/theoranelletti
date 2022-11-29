@@ -21,3 +21,19 @@ const probabilityAllHeads = (numbercoinflipped) => {
 const futureHour = (current, future) => {
   return Math.abs(current + (future - 12));
 }
+
+const presentsBudget = (friends, price) => {
+  return friends * price;
+}
+
+const perPresent = (totalmoney, numpresents) => {
+  return 
+}
+
+const wrapingCombos = (wrapping, ribbions, bows) => {
+  return
+}
+
+const biggestNumber = (numdigits) => {
+  return
+}
