@@ -19,7 +19,7 @@ const probabilityAllHeads = (numbercoinflipped) => {
 }
 
 const futureHour = (current, future) => {
-  return Math.abs(current + (future - 12));
+  return Math.abs(current + (future % 2));
 }
 
 const presentsBudget = (friends, price) => {
