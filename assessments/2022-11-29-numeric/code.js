@@ -7,7 +7,7 @@ const chocolatesPerPerson = (chocolate, people) => {
 }
 
 const extraChocolates = (chocolate, people) => {
-  return Math.ceiling(chocolate / people);
+  return Math(chocolate / people);
 }
 
 const leftOut = (chocolate, people) => {
