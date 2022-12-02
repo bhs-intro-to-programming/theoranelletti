@@ -9,3 +9,7 @@ const needSunscreen = (beach, skiing) => {
 const needMittens = (outside, warm) => {
   return outside &&! warm
 }
+
+const isVenomous = (striped, bluehead) => {
+  return striped && bluehead || striped &&! bluehead || !striped &&! bluehead
+}
