@@ -3,15 +3,15 @@ const needHeavyCoat = (outside, cold) => {
 }
 
 const needSunscreen = (beach, skiing) => {
-  return beach &&! skiing || !beach && skiing
+  return beach && !skiing || !beach && skiing
 }
 
 const needMittens = (outside, warm) => {
-  return outside &&! warm
+  return outside && !warm
 }
 
 const isVenomous = (striped, bluehead) => {
-  return striped && bluehead || striped &&! bluehead || !striped &&! bluehead
+  return striped && bluehead || striped && !bluehead || !striped && !bluehead
 }
 
 const okaySpeed = (speedlimitmph, carspeedmph) => {
@@ -22,7 +22,7 @@ const okaySpeed = (speedlimitmph, carspeedmph) => {
 }
 
 const twiceAsExpensive = (s1, s2) => {
-  if (s1 > (s2*2)) {
+  if (s1 > (s2 * 2)) {
     return true
   }
   else return false
@@ -35,8 +35,8 @@ const winningRecord = (wins, losses, ties) => {
   else return false
 }
 
-const isMagicNumber = () => {
-  if (s = (17 || 42)) {
+const isMagicNumber = (_s) => {
+  if (_s = 17 || 42) {
     return true
   }
   else return false
