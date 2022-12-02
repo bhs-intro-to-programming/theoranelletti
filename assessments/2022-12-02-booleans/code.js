@@ -14,8 +14,8 @@ const isVenomous = (striped, bluehead) => {
   return striped && bluehead || striped && !bluehead || !striped && !bluehead
 }
 
-const okaySpeed = (speedlimitmph, carspeedmph) => {
-  if (speedlimitmph > carspeedmph(speedlimitmph + 10)  || speedlimitmph < carspeedmph(speedlimitmph - 10)) {
+const okaySpeed = (speedlimitmph) => {
+  if (speedlimitmph > (speedlimitmph + 10)  || speedlimitmph < (speedlimitmph - 10)) {
     return true
   }
   else return false
