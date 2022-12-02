@@ -29,5 +29,8 @@ const twiceAsExpensive = (s1, s2) => {
 }
 
 const winningRecord = (wins, losses, ties) => {
-  return
+  if ((losses + ties) < wins) {
+    return true
+  }
+  else return false
 }
