@@ -35,8 +35,8 @@ const winningRecord = (wins, losses, ties) => {
   else return false
 }
 
-const isMagicNumber = () => {
-  if ( 42 || 17) {
+const isMagicNumber = (number) => {
+  if (number === 42 || 17) {
     return true
   }
   else return false
