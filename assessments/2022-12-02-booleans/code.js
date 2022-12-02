@@ -13,3 +13,10 @@ const needMittens = (outside, warm) => {
 const isVenomous = (striped, bluehead) => {
   return striped && bluehead || striped &&! bluehead || !striped &&! bluehead
 }
+
+const okaySpeed = (speedlimitmph, carspeedmph) => {
+  if (speedlimitmph >= 10(carspeedmph) || speedlimitmph <= 10(carspeedmph)) {
+    return true
+  }
+  else return false
+}
