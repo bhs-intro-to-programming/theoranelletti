@@ -15,7 +15,10 @@ const isVenomous = (striped, bluehead) => {
 }
 
 const okaySpeed = (speedlimitmph, carspeedmph) => {
-  if (carspeedmph >= (speedlimitmph - 10) && carspeedmph <= (speedlimit + 10)
+  if (carspeedmph >= (speedlimitmph - 10) && carspeedmph <= (speedlimit + 10) {
+    return true
+  }
+  else return false
 }
 
 const twiceAsExpensive = (priceofitemone, priceofitemtwo) => {
