@@ -21,8 +21,8 @@ const okaySpeed = (speedlimitmph, carspeedmph) => {
   else return false
 }
 
-const twiceAsExpensive = (s1, s2) => {
-  if (s1 > (s2 * 2)) {
+const twiceAsExpensive = (priceofitemone, priceofitemtwo) => {
+  if (priceofitemone > (priceofitemtwo * 2)) {
     return true
   }
   else return false
