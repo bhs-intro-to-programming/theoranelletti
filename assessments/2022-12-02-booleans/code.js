@@ -34,3 +34,10 @@ const winningRecord = (wins, losses, ties) => {
   }
   else return false
 }
+
+const isMagicNumber = (s1) => {
+  if (isMagicNumber ) {
+    return true
+  }
+  else return false
+}
