@@ -7,5 +7,5 @@ const needSunscreen = (beach, skiing) => {
 }
 
 const needMittens = (outside, warm) => {
-  return outside &&! warm || 
+  return outside &&! warm
 }
