@@ -16,6 +16,9 @@ const containsX = (s) => {
 const capitalize = (s) => {
   return 
 }
-const slug = (s1, s2) => {
-  return s1.toLowerCase(s1) + '-'
+const slug = (s1, s2, s3) => {
+  const first = (s1.toLowerCase(s1) + '-')
+  const second = (s2.toLowerCase(s2) + '-')
+  const third = (s3.toLowerCase(s3) + '-') 
+  return first + second + third
 }
