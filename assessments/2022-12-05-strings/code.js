@@ -1,5 +1,5 @@
 const upToX = (s) => {
-  return s.substring(s.indexOf('x'))
+  return s.substring(s, s.indexOf('x'))
 }
 
 const pair = (s1, s2) => {
