@@ -13,12 +13,13 @@ const containsX = (s) => {
   else return false
 }
 
-const capitalize = (s) => {
-  return 
-}
 const slug = (s1, s2, s3) => {
   const firstword = (s1.toLowerCase(s1) + '-')
   const secondword = (s2.toLowerCase(s2) + '-')
   const thirdword = (s3.toLowerCase(s3)) 
   return firstword + secondword + thirdword
+}
+
+const capitalize = (s) => {
+  return 
 }
