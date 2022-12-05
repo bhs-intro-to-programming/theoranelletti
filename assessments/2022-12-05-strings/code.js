@@ -7,7 +7,7 @@ const pair = (s1, s2) => {
 }
 
 const containsX = (s) => {
-  if (s.substring(0, 'x')) {
+  if (s.substring(s.length, 'x')) {
     return true
   }
   else return false
