@@ -12,3 +12,7 @@ const containsX = (s) => {
   }
   else return false
 }
+
+const slug = (s1, s2, s3) => {
+  return (s1 + '-') + s2 + s3
+}
