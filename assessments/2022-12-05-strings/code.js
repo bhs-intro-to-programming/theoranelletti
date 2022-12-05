@@ -19,6 +19,6 @@ const capitalize = (s) => {
 const slug = (s1, s2, s3) => {
   const first = (s1.toLowerCase(s1) + '-')
   const second = (s2.toLowerCase(s2) + '-')
-  const third = (s3.toLowerCase(s3) + '-') 
+  const third = (s3.toLowerCase(s3)) 
   return first + second + third
 }
