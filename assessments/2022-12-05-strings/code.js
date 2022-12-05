@@ -17,5 +17,5 @@ const capitalize = (s) => {
   return 
 }
 const slug = (s1, s2) => {
-  return s.toLowerCase((s1 + '-') + s2)
+  return s1.toLowerCase((s1 + '-') + s2)
 }
