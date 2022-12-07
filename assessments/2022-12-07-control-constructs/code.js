@@ -79,8 +79,8 @@ const pair = (a, b) => {
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
 
-const logIfOk = (log) => {
-  if (ifOk = true) {
+const logIfOk = (s) => {
+  if (ifOk(s) = true) {
     return log
   }
   else return false
