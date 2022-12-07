@@ -100,5 +100,8 @@ const timeToLeet = (num) => {
 }
 
 const classify = (num) => {
-  
+  if (isOK = true) {
+    return recordOk
+  }
+  else return recordNotOk
 }
