@@ -98,3 +98,7 @@ const timeToLeet = (num) => {
     return random10k(num)
   }
 }
+
+const classify = (num) => {
+  
+}
