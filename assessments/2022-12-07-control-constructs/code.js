@@ -94,7 +94,5 @@ const firstOk = (num) => {
 }
 
 const timeToLeet = (num) => {
-  for (let i = 0; i < ; i++) {
 
-  }
 }
