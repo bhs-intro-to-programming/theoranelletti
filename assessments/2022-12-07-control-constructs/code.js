@@ -87,7 +87,7 @@ const logIfOk = (s) => {
 }
 
 const firstOk = (num) => {
-  if (num >= 0 && num < isOk(true)) {
+  if (num >= 0 && isOk === true) {
     return num
   }
   else return undefined
