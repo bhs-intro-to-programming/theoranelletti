@@ -87,8 +87,14 @@ const logIfOk = (s) => {
 }
 
 const firstOk = (num) => {
-  if (num >= 0 && num < isOk(num)) {
+  if (num >= 0 && num < isOk(true)) {
     return num
   }
   else return undefined
+}
+
+const timeToLeet = (num) => {
+  for (let i = 0; i < ; i++) {
+
+  }
 }
