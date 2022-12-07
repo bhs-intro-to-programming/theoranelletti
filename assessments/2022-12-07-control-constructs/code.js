@@ -94,5 +94,7 @@ const firstOk = (num) => {
 }
 
 const timeToLeet = (num) => {
-
+  for (let i = 0; i < 9999; i++) {
+    return random10k(num)
+  }
 }
