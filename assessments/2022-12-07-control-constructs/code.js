@@ -110,10 +110,8 @@ const threewayClassify = (num) => {
   if (isOk(num) === true) {
     return recordOk
   }
-  if (isOk(num) === false) {
-    return recordNotOk
-  }
   if (isMeh(num) === true) {
     return isMeh
   }
+  else return recordNotOk
 }
