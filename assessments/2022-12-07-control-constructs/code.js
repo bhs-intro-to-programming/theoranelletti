@@ -119,7 +119,7 @@ const threewayClassify = (num) => {
 const sumOfSquares = (num) => {
   let sum = 0
   for (let i = 0; i < num; i++) {
-    sum+= ((Math.floor(num**2)) - num)
+    sum *= ((Math.floor(num ** 2)) - num)
   }
   return sum
 }
