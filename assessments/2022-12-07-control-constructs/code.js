@@ -90,5 +90,5 @@ const firstOk = (num) => {
   if (num >= 0 && num < isOk) {
     return num
   }
-  else return 'undefined'
+  else return undefined
 }
