@@ -23,7 +23,7 @@ const timesTable = (num) => {
 }
 
 const containsX = (s) => {
-  if (s.indexOf(s.length(s), 'x')) {
+  if (indexOf(s.length(), 'x')) {
     return true
   }
   else return false
