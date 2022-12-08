@@ -6,5 +6,5 @@ const yesIfEven = (num) => {
 }
 
 const countXs = (s) => {
-  return s.substring(0, 'x')
+  return s.indexOf(0, 'x')
 }
