@@ -1,4 +1,3 @@
-
 const emit = (a, b) => console.log(a + ', ' + b);
 
 const yesIfEven = (num) => {
@@ -12,6 +11,12 @@ const countXs = (s) => {
     if (s.indexOf(s.length, 'x')) {
     return 
     }
+}
+
+const timesTabe = (num) => {
+  for (let i = 0; i < num; i++) {
+    return emit(num, num, num) && emit(num, num, num)
+  }
 }
 
 const containsX = (s) => {
