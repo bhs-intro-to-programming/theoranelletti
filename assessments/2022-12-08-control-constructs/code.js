@@ -18,7 +18,7 @@ const timesTable = (num) => {
 }
 
 const containsX = (s) => {
-  if (x.indexOf('x') === -1){
+  if (s.indexOf('s') === -1){
     return false
   }
   else return true
