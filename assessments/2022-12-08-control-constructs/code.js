@@ -23,7 +23,7 @@ const timesTable = (num) => {
 }
 
 const containsX = (s) => {
-  if (s.indexOf(s.length, 'x')) {
+  if (s.indexOf(s.length, x)) {
     return true
   }
   else return false
@@ -31,6 +31,6 @@ const containsX = (s) => {
 
 const sumSquares = (num) => {
   for(let i = 0; i < num - 1; i++) {
-    return num
+    return num ** 2
     }
 }
