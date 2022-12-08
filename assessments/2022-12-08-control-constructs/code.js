@@ -8,7 +8,7 @@ const yesIfEven = (num) => {
 }
 
 const countXs = (s) => {
-  return s.indexOf(s.length, 'x')
+  return s.indexOf('x', s.length)
 }
 
 const timesTable = (num) => {
