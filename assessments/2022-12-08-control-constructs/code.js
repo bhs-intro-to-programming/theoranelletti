@@ -13,15 +13,12 @@ const countXs = (s) => {
 
 const timesTable = (num) => {
   for (let i = 0; i < num; i++) {
-    return emit(num, num, num)
-  }
-  for (let i = 0; i < num; i++) {
-    return emit(num, num, num)
+    return emit(num, num, nu)
   }
 }
 
 const containsX = (s) => {
-  if (s.indexOf('x', s.length())) {
+  if (s.indexOf('x')) {
     return true
   }
   else return false
