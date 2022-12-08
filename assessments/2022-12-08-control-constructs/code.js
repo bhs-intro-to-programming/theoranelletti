@@ -9,11 +9,11 @@ const yesIfEven = (num) => {
 }
 
 const countXs = (s) => {
-  return s.indexOf(0, 'x')
+  return s.indexOf(s.length, 'x')
 }
 
 const containsX = (s) => {
-  if (s.indexOf(s., 'x')) {
+  if (s.indexOf(s.length, 'x')) {
     return true
   }
 }
