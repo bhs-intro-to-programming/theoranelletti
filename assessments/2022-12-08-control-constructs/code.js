@@ -13,7 +13,7 @@ const countXs = (s) => {
     }
 }
 
-const timesTabe = (num) => {
+const timesTable = (num) => {
   for (let i = 0; i < num; i++) {
     return emit(num, num, num) && emit(num, num, num)
   }
