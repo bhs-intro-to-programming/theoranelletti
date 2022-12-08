@@ -8,7 +8,7 @@ const yesIfEven = (num) => {
 }
 
 const countXs = (s) => {
-  return s.indexOf('x', s.length)
+  return s.indexOf('x')
 }
 
 const timesTable = (num) => {
@@ -18,7 +18,7 @@ const timesTable = (num) => {
 }
 
 const containsX = (s) => {
-  if (s.indexOf('x')) {
+  if (s.indexOf('x')  {
     return true
   }
   else return false
