@@ -8,11 +8,6 @@ const yesIfEven = (num) => {
 }
 
 const countXs = (s) => {
-  if (s.indexOf('x') === true {
-    return 
-  }
-  else return 0
-}
 
 const timesTable = (num) => {
   for (let i = 0; i < num; i++) {
