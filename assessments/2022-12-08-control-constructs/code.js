@@ -21,6 +21,7 @@ const containsX = (s) => {
   if (s.indexOf('x') === -1){
     return false
   }
+  else return true
 }
 
 const sumSquares = (num) => {
