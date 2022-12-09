@@ -58,7 +58,7 @@ registerOnclick((x, y) => {
     drawText(turn, (box_x * (width / 3) + (width / 3) * width / 6) - 50, (box_y * (height / 3) + height / 6) + 50, 'black',)
     cordArray(box_y)(box_x) = turn
     console.log(JSON.stringifty(identifyWin(turn)))
-    turn = turn === "x" ? turn = "o"
+    turn = turn === "x" ? turn = "o" | turns: 'x'
     if (turns === 0 && identifyWin === undefined) {
       drawText('DRAW', width / 2, height /2, 'black')
     }
