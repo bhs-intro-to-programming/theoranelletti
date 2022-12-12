@@ -78,3 +78,48 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+const logIfOk = (s) => {
+  if (ifOk(s) = true) {
+    return log(s)
+  }
+  else return false
+}
+
+const firstOk = (num) => {
+  if (num >= 0 && isOk === true) {
+    return num
+  }
+  else return undefined
+}
+
+const timeToLeet = (num) => {
+  for (let i = 0; i < 9999; i++) {
+    return random10k(num)
+  }
+}
+
+const classify = (num) => {
+  if (isOk(num) === true) {
+    return recordOk
+  }
+  else return recordNotOk
+}
+
+const threewayClassify = (num) => {
+  if (isOk(num) === true) {
+    return recordOk
+  }
+  if (isMeh(num) === true) {
+    return isMeh
+  }
+  else return recordNotOk
+}
+
+const sumOfSquares = (num) => {
+  let sum = 0
+  for (let i = 0; i < num; i++) {
+    sum += num ** 2
+  }
+  return sum
+}
