@@ -3,32 +3,22 @@ const makeRow = () => {
 }
 
 const makeBoard = () => {
-  return  ['', '', ''],
+  return  (['', '', ''],
           ['', '', ''],
-          ['', '', '']
+          ['', '', ''])
 }
 
 const makeMove = (mark, row, column) => {
   return ['mark' : mark, 'row' : row, 'column' : column]
 }
 
-const placeMark = () => {
-  return ['', '', ''],
-         ['', '', ''],
-         ['', '', '']
-}
-
-const allTheSame = () => {
-  if (['' === [''] && '' === [''] && '' === ['']]) {
+const allTheSame = (array) => {
+  if (array['', '', ''] === array['','','']) {
     return true
   }  
   else return false
 }
 
-const extractColumn = () => {
-  return makeBoard 
-}
-
-const recordMove = (array, object) => {
-  
+const extractColumn = (array, index) => {
+  return array[board(index)]
 }
