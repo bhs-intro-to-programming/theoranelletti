@@ -1,15 +1,15 @@
 const makeRow = () => {
-  return ['','','']
+  return ['', '', '']
 }
 
 const makeBoard = () => {
-  return ['','',''],
-        ['','',''],
-        ['','','']
+  return ['', '', ''],
+    ['', '', ''];
+    ['', '', ''];
 }
 
 const makeMove = (mark, row, column) => {
-  return [mark,row,column]
+  return [mark, row, column]
 }
 
 const placeMark = ()
