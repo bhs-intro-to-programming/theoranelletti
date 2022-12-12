@@ -24,3 +24,13 @@ const allTheSame = () => {
   }  
   else return false
 }
+
+const extractColumn = () => {
+  return ['', '', ''],
+         ['', '', ''],
+         ['', '', '']
+}
+
+const recordMove = (array, object) => {
+  
+}
