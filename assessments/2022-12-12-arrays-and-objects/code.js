@@ -17,3 +17,10 @@ const placeMark = () => {
          ['', '', ''],
          ['', '', '']
 }
+
+const allTheSame = () => {
+  if (['' === '' === '']) {
+    return true
+  }  
+  else return false
+}
