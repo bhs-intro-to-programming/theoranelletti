@@ -15,10 +15,6 @@ const allTheSame = (array) => {
   else return false
 }
 
-const extractColumn = (array, index) => {
-  return 
-}
-
 const makeMove = (mark, row, column) => {
-  return ['mark' : mark, 'row' : row, 'column' : column];
+  return {'mark' : mark, 'row' : row, 'column' : column}
 }
