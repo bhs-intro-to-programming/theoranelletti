@@ -7,5 +7,5 @@ const makeBoard = () => {
 }
 
 const makeMove = (mark, row, column) => {
-  return [[mark],[row],[column]]
+  return [mark,row,column]
 }
