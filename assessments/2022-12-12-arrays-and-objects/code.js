@@ -26,9 +26,7 @@ const allTheSame = () => {
 }
 
 const extractColumn = () => {
-  return ['', '', ''],
-         ['', '', ''],
-         ['', '', '']
+  return makeBoard 
 }
 
 const recordMove = (array, object) => {
