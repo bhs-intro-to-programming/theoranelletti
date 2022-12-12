@@ -20,5 +20,5 @@ const extractColumn = (array, index) => {
 }
 
 const makeMove = (mark, row, column) => {
-  return ['mark' : mark, 'row' : row, 'column' : column]
+  return ['mark' : mark, 'row' : row, 'column' : column];
 }
