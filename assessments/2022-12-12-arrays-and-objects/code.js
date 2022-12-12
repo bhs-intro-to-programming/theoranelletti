@@ -2,4 +2,6 @@ const makeRow = () => {
   return ['','','']
 }
 
-const 
+const makeBoard = () => {
+  return [['','',''],['','',''],['','','']] 
+}
