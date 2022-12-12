@@ -3,9 +3,13 @@ const makeRow = () => {
 }
 
 const makeBoard = () => {
-  return [['','',''],['','',''],['','','']] 
+  return ['','',''],
+        ['','',''],
+        ['','','']
 }
 
 const makeMove = (mark, row, column) => {
   return [mark,row,column]
 }
+
+const placeMark = ()
