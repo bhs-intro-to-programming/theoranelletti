@@ -5,3 +5,7 @@ const makeRow = () => {
 const makeBoard = () => {
   return [['','',''],['','',''],['','','']] 
 }
+
+const makeMove = (mark, row, column) => {
+  return [[mark],[row],[column]]
+}
