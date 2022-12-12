@@ -4,8 +4,8 @@ const makeRow = () => {
 
 const makeBoard = () => {
   return ['', '', '']
-    ['', '', '']
-    ['', '', '']
+  ['', '', '']
+  ['', '', '']
 }
 
 const makeMove = (mark, row, column) => {
