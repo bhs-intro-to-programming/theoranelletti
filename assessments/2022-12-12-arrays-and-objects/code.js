@@ -9,7 +9,7 @@ const makeBoard = () => {
 }
 
 const makeMove = (mark, row, column) => {
-  return [s(mark), row, column]
+  return [mark, row, column]
 }
 
 const placeMark = ()
