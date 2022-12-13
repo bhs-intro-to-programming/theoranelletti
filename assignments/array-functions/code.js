@@ -20,16 +20,16 @@ const evens = (array) => {
   let evenarray = []
   for (const element of array) {
     if (element % 2 === 0)
-    evenarray.push(element)
+      evenarray.push(element)
   }
   return evenarray
 }
 
 const anyOverOneHundred = (array) => {
   for (let i = 0; i < array.length; i++) {
-    if (array[i] > 100) {
-    return true 
+    if (array[i].length > 100) {
+      return true
     }
     else return false
-  } 
+  }
 }
