@@ -113,10 +113,6 @@ const allTheSame = (array) => {
   return array[0] === array[1] && array[1] === array[2]
 }
 
-const extractColumn = () => {
-  return
-}
-
 const higherPaid = (salary1, salary2) => {
   if ([salary1] > [salary2]) {
     return [salary1]
@@ -132,3 +128,4 @@ const isWinner = (score) => {
   }
   else return false
 }
+
