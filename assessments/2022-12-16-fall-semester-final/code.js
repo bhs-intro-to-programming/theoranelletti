@@ -215,7 +215,7 @@ const needSunscreen = (beach, skiing) => {
 }
 
 const isAllUpperCase = (s) => {
-  if (s.length(s.toUpperCase, 0) === true) {
+  if (s.toUpperCase(s.length()) === true) {
     return true
   }
   else return false
