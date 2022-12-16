@@ -175,6 +175,6 @@ const chocolatesPerPerson = (chocolates, people) => {
   return Math.floor(chocolates / people)
 }
 
-const firstFewEveryOther = (s) => {
-  return s.substring(1, s) + s.substring(3, s) + s.substring(5, s)
+const fireAlarm = (pulled, smoke, drill) => {
+  return pulled && smoke && drill
 }
