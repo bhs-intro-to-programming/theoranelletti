@@ -144,3 +144,13 @@ const classify = (num) => {
   }
   else return recordNotOk
 }
+
+const classify = (num) => {
+  if (num === isOk) {
+    return recordOk
+  }
+  else if (num === isMeh) {
+    return recordMeh
+  }
+  else return recordNotOk
+}
