@@ -155,8 +155,6 @@ const threewayClassify = (num) => {
   else return recordNotOk
 }
 
-const sumOfSquares = (num) => {
-  for (let i = 1; i < num; i++) {
-    return (num) ** 2
-  }
+const volumeOfCube = (length) => {
+  return length ** 3
 }
