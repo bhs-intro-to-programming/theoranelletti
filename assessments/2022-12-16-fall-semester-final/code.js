@@ -190,7 +190,7 @@ const canBePresident = (age, naturalborncitizen, yearslivedinUS) => {
 }
 
 const willSeeTweet = (follow, followretweet, blocked) => {
-  if (follow || followretweet &&! blocked) {
+  if (follow && !followretweet && !blocked || !follow && followretweet && !blocked || follow && followretweet && !blocked) {
     return true
   }
   else return false
