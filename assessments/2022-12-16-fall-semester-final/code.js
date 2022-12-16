@@ -176,5 +176,5 @@ const chocolatesPerPerson = (chocolates, people) => {
 }
 
 const firstFewEveryOther = (s) => {
-  return s.substring(1, 0) + s.substring(3, 0) + s.substring(5, 0)
+  return s.substring(1, s) + s.substring(3, s) + s.substring(5, s)
 }
