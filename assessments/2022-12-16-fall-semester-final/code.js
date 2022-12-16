@@ -139,10 +139,8 @@ const firstOk = (num) => {
 }
 
 const classify = (num) => {
-  if (num === recordOk) {
-    return isOk
+  if (num === isOk) {
+    return recordOk
   }
-  if (num === recordNotOk) {
-    return notOk
-  }
+  else return recordNotOk
 }
