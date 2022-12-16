@@ -11,7 +11,7 @@ const makeMove = (m, r, c) => {
 }
 
 const placeMark = () => {
-  
+  return (makeBoard, makeMove);
 }
 
 const allTheSame = (array) => {
