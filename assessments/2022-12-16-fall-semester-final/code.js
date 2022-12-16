@@ -213,3 +213,10 @@ const needSunscreen = (beach, skiing) => {
   }
   else return true
 }
+
+const isAllUpperCase = (s) => {
+  if (s.length() === s.UpperCase) {
+    return true
+  }
+  else return false
+}
