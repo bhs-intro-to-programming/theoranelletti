@@ -206,3 +206,10 @@ const needHeavyCoat = (outside, cold) => {
   }
   else return false
 }
+
+const needSunscreen = (beach, skiing) => {
+  if (!beach && !skiing) {
+    return false
+  }
+  else return true
+}
