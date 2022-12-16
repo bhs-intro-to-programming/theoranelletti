@@ -14,3 +14,6 @@ const placeMark = () => {
   
 }
 
+const allTheSame = (array) => {
+  return array[0] === array[1] && array[1] === array[2]
+}
