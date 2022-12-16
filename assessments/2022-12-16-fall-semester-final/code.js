@@ -97,6 +97,26 @@ const pair = (a, b) => {
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
 
+const makeRow = () => {['', '', '']}
+
+const makeBoard = () => {
+         [['', '', '']
+         ['', '', '']
+         ['', '', '']];
+}
+
+const makeMove = (m, r, c) => {
+  return {m : m, r : r, c : c,};
+}
+
+const allTheSame = (array) => {
+  return array[0] === array[1] && array[1] === array[2]
+}
+
+const extractColumn = () => {
+  return
+}
+
 const higherPaid = (salary1, salary2) => {
   if ([salary1] > [salary2]) {
     return [salary1]
@@ -104,4 +124,9 @@ const higherPaid = (salary1, salary2) => {
   if ([salary1] < [salary2]) {
     return [salary2]
   }
+}
+
+const isWinner = () => {
+  let sum = 0
+  for (let i = 0, i > )
 }
