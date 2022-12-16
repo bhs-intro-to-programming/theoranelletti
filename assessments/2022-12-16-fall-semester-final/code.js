@@ -140,9 +140,9 @@ const firstOk = (num) => {
 
 const classify = (num) => {
   if (num === isOk) {
-    return isOk
+    return recordOk
   }
   if (num === notOk) {
-    return isnotOk
+    return recordNotOk
   }
 }
