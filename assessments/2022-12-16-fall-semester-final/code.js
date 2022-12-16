@@ -166,3 +166,7 @@ const populationGrowth = (current, growth) => {
 const earnedRunAverage = (earned, innings) => {
   return (earned / innings) * 9
 }
+
+const totalEggs = (hard, soft) => {
+  return hard + soft
+}
