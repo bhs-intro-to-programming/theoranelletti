@@ -139,17 +139,17 @@ const firstOk = (num) => {
 }
 
 const classify = (num) => {
-  if (num === isOk) {
+  if (isOk(num) === true) {
     return recordOk
   }
   else return recordNotOk
 }
 
 const threewayClassify = (num) => {
-  if (num === isOk) {
+  if (isOk(num) === true) {
     return recordOk
   }
-  else if (num === isMeh) {
+  else if (isMeh(num) === true) {
     return recordMeh
   }
   else return recordNotOk
