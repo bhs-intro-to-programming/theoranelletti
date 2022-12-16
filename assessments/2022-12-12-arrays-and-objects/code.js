@@ -5,3 +5,7 @@ const makeBoard = () => {
          ['', '', '']
          ['', '', '']]
 }
+
+const makeMove = (m, r, c) => {
+  return {m : m, r : r, c : c,};
+}
