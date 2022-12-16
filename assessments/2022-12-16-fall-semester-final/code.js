@@ -174,3 +174,7 @@ const totalEggs = (hard, soft) => {
 const chocolatesPerPerson = (chocolates, people) => {
   return Math.floor(chocolates / people)
 }
+
+const firstFewEveryOther = (s) => {
+  return s.substring(1, 0) + s.substring(3, 0) + s.substring(5, 0)
+}
