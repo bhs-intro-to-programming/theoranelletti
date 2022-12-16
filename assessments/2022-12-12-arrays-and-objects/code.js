@@ -15,5 +15,5 @@ const allTheSame = (array) => {
 }
 
 const extractColumn = () => {
-  return makeBoard
+  return
 }
