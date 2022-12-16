@@ -99,9 +99,9 @@ const pair = (a, b) => {
 
 const higherPaid = (salary1, salary2) => {
   if ([salary1] > [salary2]) {
-    return salary1
+    return [salary1]
   }
   if ([salary1] < [salary2]) {
-    return salary2
+    return [salary2]
   }
 }
