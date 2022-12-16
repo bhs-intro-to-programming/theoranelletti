@@ -129,3 +129,11 @@ const isWinner = (score) => {
   else return false
 }
 
+const firstOk = (num) => {
+  for (let i = 0; i < num; i++) {
+    if (num === isOk) {
+      return isOk
+    }
+    else return undefined
+  }
+}
