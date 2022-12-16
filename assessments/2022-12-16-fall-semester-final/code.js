@@ -158,3 +158,7 @@ const threewayClassify = (num) => {
 const volumeOfCube = (length) => {
   return length ** 3
 }
+
+const populationGrowth = (current, growth) => {
+  return current * growth
+}
