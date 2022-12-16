@@ -138,3 +138,11 @@ const firstOk = (num) => {
   }
 }
 
+const classify = (num) => {
+  if (num === isOk) {
+    return isOk
+  }
+  if (num === notOk) {
+    return isnotOk
+  }
+}
