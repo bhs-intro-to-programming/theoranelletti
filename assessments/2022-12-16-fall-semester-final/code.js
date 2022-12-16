@@ -175,6 +175,10 @@ const chocolatesPerPerson = (chocolates, people) => {
   return Math.floor(chocolates / people)
 }
 
+// I know I don't have to do the if statement and
+// the return true else return false but I just 
+// got used to doing it that way and I like it
+
 const fireAlarm = (pulled, smoke, drill) => {
   if (pulled && !smoke && !drill || !pulled && !smoke && drill || !pulled && smoke && !drill) {
     return true
@@ -191,6 +195,13 @@ const canBePresident = (age, naturalborncitizen, yearslivedinUS) => {
 
 const willSeeTweet = (follow, followretweet, blocked) => {
   if (follow && !followretweet && !blocked || !follow && followretweet && !blocked || follow && followretweet && !blocked) {
+    return true
+  }
+  else return false
+}
+
+const needHeavyCoat = (outside, cold) => {
+  if (outside && cold) {
     return true
   }
   else return false
