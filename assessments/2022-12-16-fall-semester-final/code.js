@@ -97,16 +97,16 @@ const pair = (a, b) => {
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
 
-const makeRow = () => {['', '', '']}
+const makeRow = () => { ['', '', ''] }
 
 const makeBoard = () => {
-         [['', '', '']
-         ['', '', '']
-         ['', '', '']];
+  [['', '', '']
+  ['', '', '']
+  ['', '', '']];
 }
 
 const makeMove = (m, r, c) => {
-  return {m : m, r : r, c : c,};
+  return { m: m, r: r, c: c, };
 }
 
 const allTheSame = (array) => {
@@ -126,7 +126,9 @@ const higherPaid = (salary1, salary2) => {
   }
 }
 
-const isWinner = () => {
-  let sum = 0
-  for (let i = 0, i > )
+const isWinner = (score) => {
+  if (score > 100) {
+    return true
+  }
+  else return false
 }
