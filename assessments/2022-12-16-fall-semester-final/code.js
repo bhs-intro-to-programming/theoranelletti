@@ -180,3 +180,9 @@ const fireAlarm = (pulled, smoke, drill) => {
     return true
   }
 }
+  
+const canBePresident = (age, naturalborncitizen, yearslivedinUS) => {
+  if (age >= 35 && naturalborncitizen && yearslivedinUS >= 14) {
+    return true
+  }
+}
