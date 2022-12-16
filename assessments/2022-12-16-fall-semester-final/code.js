@@ -145,7 +145,7 @@ const classify = (num) => {
   else return recordNotOk
 }
 
-const classify = (num) => {
+const threewayClassify = (num) => {
   if (num === isOk) {
     return recordOk
   }
