@@ -176,5 +176,7 @@ const chocolatesPerPerson = (chocolates, people) => {
 }
 
 const fireAlarm = (pulled, smoke, drill) => {
-  return pulled && smoke && drill
+  if (pulled && !smoke && !drill || !pulled && !smoke && drill || !pulled && smoke && !drill) {
+    return true
+  }
 }
