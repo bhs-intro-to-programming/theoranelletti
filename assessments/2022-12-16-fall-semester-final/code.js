@@ -96,3 +96,127 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+const makeRow = () => { ['', '', ''] }
+
+const makeBoard = () => {
+  [['', '', '']
+  ['', '', '']
+  ['', '', '']];
+}
+
+const makeMove = (m, r, c) => {
+  return { m: m, r: r, c: c, };
+}
+
+const allTheSame = (array) => {
+  return array[0] === array[1] && array[1] === array[2]
+}
+
+const higherPaid = (salary1, salary2) => {
+  if ([salary1] > [salary2]) {
+    return [salary1]
+  }
+  if ([salary1] < [salary2]) {
+    return [salary2]
+  }
+}
+
+const isWinner = (score) => {
+  if (score > 100) {
+    return true
+  }
+  else return false
+}
+
+const firstOk = (num) => {
+  for (let i = 0; i < num; i++) {
+    if (num === isOk) {
+      return isOk
+    }
+    else return undefined
+  }
+}
+
+const classify = (num) => {
+  if (isOk(num) === true) {
+    return recordOk
+  }
+  else return recordNotOk
+}
+
+const threewayClassify = (num) => {
+  if (isOk(num) === true) {
+    return recordOk
+  }
+  else if (isMeh(num) === true) {
+    return recordMeh
+  }
+  else return recordNotOk
+}
+
+const volumeOfCube = (length) => {
+  return length ** 3
+}
+
+const populationGrowth = (current, growth) => {
+  return current * growth
+}
+
+const earnedRunAverage = (earned, innings) => {
+  return (earned / innings) * 9
+}
+
+const totalEggs = (hard, soft) => {
+  return hard + soft
+}
+
+const chocolatesPerPerson = (chocolates, people) => {
+  return Math.floor(chocolates / people)
+}
+
+// I know I don't have to do the if statement and
+// the return true else return false but I just 
+// got used to doing it that way and I like it
+
+const fireAlarm = (pulled, smoke, drill) => {
+  if (pulled && !smoke && !drill || !pulled && !smoke && drill || !pulled && smoke && !drill) {
+    return true
+  }
+  else return false
+}
+  
+const canBePresident = (age, naturalborncitizen, yearslivedinUS) => {
+  if (age >= 35 && naturalborncitizen && yearslivedinUS >= 14) {
+    return true
+  }
+  else return false
+}
+
+const willSeeTweet = (follow, followretweet, blocked) => {
+  if (follow && !followretweet && !blocked || !follow && followretweet && !blocked || follow && followretweet && !blocked) {
+    return true
+  }
+  else return false
+}
+
+const needHeavyCoat = (outside, cold) => {
+  if (outside && cold) {
+    return true
+  }
+  else return false
+}
+
+const needSunscreen = (beach, skiing) => {
+  if (!beach && !skiing) {
+    return false
+  }
+  else return true
+}
+
+const isAllUpperCase = (s) => {
+  if (s.toUpperCase(s.length()) === true) {
+    return true
+  }
+  else return false
+}
