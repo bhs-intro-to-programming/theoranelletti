@@ -4,18 +4,12 @@
 // of the equals sign in our normal `const foo = ...` function definition. This
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
-
+const cordArray = [
+  ['', '', ''],
+  ['', '', ''],
+  ['', '', ''],
+]
 let turn = "X";
-registerOnclick((x, y) => {
-
-  const rowHeight = height / 3
-  const box_y = Math.floor(y / rowHeight)
-
-  const rowWidth = width / 3
-  const box_x = Math.floor(x / rowWidth)
-  drawText(turn, box_x * (width / 3) - 75 + width / 6, box_y * (height / 3) + 75 + height / 6, 'black', 180);
-  turn = turn === "X" ? "O" : "X";
-});
 
 const drawBoard = () => {
   for (let i = 0; i < 2; i++) {
@@ -29,3 +23,44 @@ const drawBoard = () => {
 }
 
 drawBoard()
+
+let winner
+const identifyWin = (turn) => {
+  if (cordArray[0, 0] === turn && cordArray[0, 1] === turn && cordArray[0, 2]) {
+    winner = { winner: turn, winType: 'horizontal', winLocation: 'top' }
+  } else if (cordArray[1][0] === turn && cordArray[1][1] === turn && cordArray[1][2] == turn) {
+    winner = { winner: turn, winType: 'horizontal', winLocation: 'mid' }
+  } else if (cordArray[2][0] === turn && cordArray[2][1] === turn && cordArray[2][2] == turn) {
+    winner = { winner: turn, winType: 'horizontal', winLocation: 'low' }
+  } else if (cordArray[0][0] === turn && cordArray[1][0] === turn && cordArray[2][0] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'left' }
+  } else if (cordArray[0][1] === turn && cordArray[1][1] === turn && cordArray[2][1] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'mid' }
+  } else if (cordArray[0][2] === turn && cordArray[1][2] === turn && cordArray[2][2] == turn) {
+    winner = { winner: turn, winType: 'vertical', winLocation: 'right' }
+  } else if (cordArray[0][0] === turn && cordArray[1][1] === turn && cordArray[2][2] == turn) {
+    winner = { winner: turn, winType: 'diagonal', winLocation: 'LToR' }
+  } else if (cordArray[2][0] === turn && cordArray[1][1] === turn && cordArray[0][2] == turn) {
+    winner = { winner: turn, winType: 'diagonal', winLocation: 'RToL' }
+  }
+  return winner
+}
+
+let turn = 0
+registerOnclick((x, y) => {
+  const rowHeight = height / 3
+  const box_y = Math.floor(y / rowHeight)
+
+  const rowWidth = width / 3
+  const box_x = Math.floor(x / rowWidth)
+
+  if (cordArray[box_y][box_x] === '' && indentifyWin(turn) === undefined) {
+    drawText(turn, (box_x * (width / 3) + (width / 3) * width / 6) - 50, (box_y * (height / 3) + height / 6) + 50, 'black',)
+    cordArray(box_y)(box_x) = turn
+    console.log(JSON.stringifty(identifyWin(turn)))
+    turn = turn === "x" ? turn = "o" | turns: 'x'
+    if (turns === 0 && identifyWin === undefined) {
+      drawText('DRAW', width / 2, height /2, 'black')
+    }
+  }
+})
