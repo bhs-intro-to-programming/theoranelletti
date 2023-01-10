@@ -58,4 +58,4 @@ curl --fail "$root/$kit.tgz" > "$tmp"
 tar xzf "$tmp"
 
 # Install the libraries
-npm install
+npm install f
